@@ -1,0 +1,31 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         C Algorithms
+Module       Hash table
+Author       Simon Howard (fraggle@gmail.com)
+Description  A collection of common Computer Science algorithms
+Download     http://github.com/fragglet/c-algorithms
+Date         2005-2008
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were locally copied from latest git version:
+  - hash-table.h
+  - hash-table.c
+
+  - hash-int.h
+  - hash-string.h
+  - hash-pointer.h
+  - compare-int.h
+  - compare-string.h
+  - compare-pointer.h
+  - hash-int.c
+  - hash-string.c
+  - hash-pointer.c
+  - compare-int.c
+  - compare-string.c
+  - compare-pointer.c

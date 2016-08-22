@@ -1,0 +1,17 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         klib
+Module       khash
+Author       Attractive Chaos (attractor@live.co.uk) - Heng Li (lh3@me.com)
+Description  Generic hash table based on double hashing
+Download     http://github.com/attractivechaos/klib
+Date         2008, 2009, 2011
+Language     C macro
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were copied from latest git version without modifications:
+  - khash.h

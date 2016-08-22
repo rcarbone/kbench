@@ -1,0 +1,21 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         tommyds
+Module       dynamic hash table
+Author       Andrea Mazzoleni (amadvance@gmail.com)
+Description  C Hash Table - hash table data structure in C
+Download     http://github.com/amadvance/tommyds
+Date         2010, 2016
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were locally copied from latest git version:
+  - tommytypes.h
+  - tommylist.h
+  - tommyhash.h
+  - tommyhashdyn.h
+  - tommyhashdyn.c

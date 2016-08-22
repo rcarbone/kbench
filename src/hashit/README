@@ -1,0 +1,22 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         hashit
+Module       chaining - open addressing - overflow hash table
+Author       David Gomez (david@pleyades.net)
+Description  Hashit - Another generic hash library
+Download     http://freecode.com/projects/hashit
+Date         2004-2010
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were locally copied from a git clone available at:
+   http://github.com/neurodrone/hashit
+
+  - hashit.h
+  - hashit.c
+  - hfunctions.h
+  - hfunctions.c

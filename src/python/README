@@ -1,0 +1,30 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         python
+Module       py-ht
+Author       Don Owens (don@owensnet.com)
+Description  hash table implementation bundled with Python (based on cfuhash library)
+Download     http://python.org/ftp/python/3.5.2/Python-3.5.2.tar.xz
+Date         2005
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were copied from the Python-3.5.2 distribution:
+
+  - hashtable.h
+  - hashtable.c
+  - pyhash.h
+  - pyhash.c
+
+
+The following modifications were needed to compile the files as a standalone module
+(an anti-Python reverse enginering process):
+  - hashtable.h  =>  define here all the required definitions originally in Python.h
+  - hashtable.c  =>  avoid inclusion of Python.h and remove dependencies from PyMem_RawMalloc() and PyMem_RawFree()
+                     allow delete of non-existing keys
+  - pyhash.h     =>  define here all the required definitions originally in Python.h
+  - pyhash.c     =>  include pyhash.h to avoid inclusion of Python.h

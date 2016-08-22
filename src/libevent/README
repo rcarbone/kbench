@@ -1,0 +1,21 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         hash table included in the libevent - an event notification library
+Module       le-ht
+Author       Niels Provos (provos@umich.edu)
+Description  Niels Provos's interface to Christopher Clark's hash table implementation
+Download     http://github.com/libevent/libevent
+Date         2005, 2012
+Language     C macro
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were copied from latest git version at:
+  http://github.com/libevent/libevent
+
+  - ht-internal.h
+
+No modification was needed.

@@ -1,0 +1,25 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         ccan
+Module       htable
+Author       Rusty Russell (rusty@rustcorp.com.au)
+Description  Hash table included in CCAN (C Code Archive Network)
+Download     http://github.com/rustyrussell/ccan
+Date         2010, 2016
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+The following sources files were locally copied from latest git version:
+  - htable.h
+  - htable.c
+  - hash.h
+  - hash.c
+
+The following modifications were needed to compile the files as a standalone module:
+  1. config.h was locally edited to define symbols required by htable.h
+     (only COLD is really mandatory and must be defined in config.h)
+  2. htable.c was modified in order to avoid dependency from compiler.h
+  3. hash.h was modified in order to avoid dependency from build_assert.h

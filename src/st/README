@@ -1,0 +1,29 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         Peter Moore's hash table
+Module       st
+Author       Peter Moore @ UCB
+Description  general purpose hash table package
+Download     used in several projects (bundled with Ruby and Oniguruma)
+Date         1989
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were copied from a github copy included in hash_benchmark project by Andre' Medeiros available at:
+  http://github.com/andremedeiros/hash_benchmark
+
+  - st.h
+  - st.c
+
+No modification was needed to compile the files as a standalone module.
+
+
+The other 2 files in this directory:
+  ORG-st.h
+  ORG-st.c
+were downloaded from http://opensource.apple.com/source/ruby/ruby-4/ruby/st.[hc]?txt
+and they should be by the original files without Ruby's modifications.

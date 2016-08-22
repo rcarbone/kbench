@@ -1,0 +1,29 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         libcfu
+Module       cfu
+Author       Don Owens <don@owensnet.com>
+Description  Libcfu is a library of thread-safe functions and data structures
+Download     http://sourceforge.net/projects/libcfu
+Date         2005
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+The following sources files were copied from a github updated version by Matthew Brush available at:
+  http://github.com/codebrainz/libcfu
+
+  - cfu.h
+  - cfuhash.h
+  - cfuhash.c
+
+
+The following modifications were needed to compile the files as a standalone module:
+  - cfuhash.c  =>  added defines to include system headers
+                   avoid inclusion of cfustring.h and remove dependencies from cfuhash_bencode_strings()
+
+Makefile includes some defines needed to compile the sources:
+
+(eg DEFINES = -DHAVE_STRNCASECMP -DHAVE_STRINGS_H)

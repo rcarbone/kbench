@@ -1,0 +1,18 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         generic-c-hashmap
+Module       gchashmap
+Author       Rene' Kijewski (rene.kijewski@fu-berlin.de)
+Description  generic-c-hashmap should be the easiest way to use hash map for C
+Download     http://github.com/Kijewski/generic-c-hashmap
+Date         2012
+Language     C macro
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were copied from latest git version:
+
+  - hashmap.h

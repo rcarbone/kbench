@@ -1,0 +1,23 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         LuaHashMap
+Module       hashmap
+Author       Eric Wing (ewing@playcontrolnet)
+Description  An easy to use hash table library for C
+Download     http://playcontrol.net/opensource/LuaHashMap
+Date         2011, 2012
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+sudo apt-get install liblua5.3-dev
+
+The following sources files were locally copied from a git clone available at:
+   https://github.com/helloj/luahashmap
+
+  - LuaHashMap.h
+  - LuaHashMap.c
+
+No modifications were needed in order to compile the files as a standalone module.

@@ -1,0 +1,27 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         hashtab in libiberty library included in gcc
+Module       hashtab
+Author       Vladimir Makarov (vmakarov@cygnus.com)
+Description  An expandable hash tables datatype
+Download     http://gcc.gnu.org
+Date         1999, 2000, 2001, 2002, 2003, 2004, 2009, 2010
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+The following sources files were copied from latest git version:
+  - ansidecl.h
+  - hashtab.h
+  - hashtab.c
+
+Moreover hashtab.c was locally modified in order to:
+
+  - avoid to call xcalloc and therefore to depend also from additional xmalloc.c and xexit.c source files
+  - fix a segmentation violation when attempt to delete items not already in the hash table
+
+Makefile includes some defines needed to compile the sources:
+
+(eg DEFINES = -DHAVE_MALLOC_H -DHAVE_STDINT_H -DHAVE_STDLIB_H -DHAVE_STRING_H)

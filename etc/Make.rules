@@ -1,0 +1,76 @@
+# Private library
+RUNITDIR  = ../run-it
+INCLUDE  += -I${RUNITDIR}
+LIBRUNIT  = ${RUNITDIR}/libudb.a
+USRLIBS  += ${LIBRUNIT}
+
+# Object and depend files
+OBJS      = $(patsubst %.c,%.o, ${SRCS})
+MAINOBJS  = $(patsubst %.c,%.o, ${MAINSRCS})
+TARGETS   = $(patsubst %.c,%, ${MAINSRCS})
+DEPS      = $(patsubst %.c,%.M, ${SRCS} ${MAINSRCS})
+
+# C compilers and flags
+INCLUDES  = -I. ${INCLUDE}
+CC        = gcc
+C++       = g++
+AR        = ar
+LD        = gcc
+OPTIMIZE  = -O3
+CFLAGS   += -g -Wall ${OPTIMIZE}
+CFLAGS   += ${DEFINES}
+CFLAGS   += ${INCLUDES}
+CFLAGS   += ${WFLAGS}
+# CFLAGS   += -fno-diagnostics-color
+ARFLAGS   = rv
+LDFLAGS   =
+
+# User and System libraries
+USRLIBS  += ${LIB}
+SYSLIBS  +=
+
+# The main target is responsible to make all
+all: ${LIB} ${TARGETS}
+
+# Static Library
+${LIB}: ${OBJS}
+	@echo "=*= making static library $@ =*="
+	@${AR} ${ARFLAGS} $@ $^ 1> /dev/null 2>& 1
+
+# Binary programs
+%: %.o ${USRLIBS}
+	@echo "=*= making program $@ =*="
+	@${LD} ${LDFLAGS} $^ ${SYSLIBS} -o $@
+
+# Cleanup rules
+clean:
+	@rm -f ${TARGETS}
+	@rm -f ${LIB}
+	@rm -f ${OBJS} ${MAINOBJS}
+	@rm -f *~
+
+distclean: clean
+	@rm -f ${DEPS}
+
+# How to make an object file from a C source
+%.o: %.c
+	@echo "=*= making object $@ =*="
+	@${CC} -c ${CFLAGS} $<
+
+# How to make an object file from a C++ source
+%.o: %.cpp
+	@echo "=*= making object $@ =*="
+	@${C++} -c ${CPPFLAGS} $<
+
+# How to make a depend file from a C source
+%.M: %.c
+	@-${CC} -MM ${INCLUDES} $< -o $@
+
+# How to make a depend file from a C++ source
+%.M: %.cpp
+	@-${C++} -MM ${INCLUDES} $< -o $@
+
+-include ${DEPS}
+
+${LIBRUNIT}:
+	@(cd ${RUNITDIR} && make)

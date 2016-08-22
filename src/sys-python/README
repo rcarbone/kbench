@@ -1,0 +1,15 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         python
+Module       dictionary
+Author       Guido van Rossum
+Description  Shared Python runtime library
+Download     http://python.org
+Date         2001, 2016
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+sudo apt-get install libpython-dev

@@ -1,0 +1,19 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         hhash
+Module       Hopscotch Hash Table
+Author       Jani Lahtinen (jani.lahtinen8@gmail.com)
+Description  Hopscotch Hash Table
+Download     http://github.com/coriolanus/libhhash
+Date         2010
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were locally copied from latest git version:
+  - hhash.h
+  - hhash.c
+  - mach.c

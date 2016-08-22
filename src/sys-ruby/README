@@ -1,0 +1,15 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         ruby
+Module       hash table
+Author       Yukihiro Matsumoto (matz@ruby-lang.org)
+Description  Ruby runtime library
+Download     http://www.ruby-lang.org
+Date         1995, 2016
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+sudo apt-get install libruby

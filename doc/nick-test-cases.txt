@@ -1,0 +1,12 @@
+Author: Nick Welch (nick@incise.org)
+
+Test cases described in:
+========================
+http://incise.org/hash-table-benchmarks.html
+
+Sequential Inserts: measure how long it takes to insert a contiguous series of integer keys
+Random Inserts:     measure how long it takes to insert a random series of integer keys, with some duplicates
+Deletion:           measure how long it takes to delete a contiguous series of integer keys, which are all ensured to exist
+
+Warning: add these
+  Looking up keys, in order and random, in tables that have been built in order and randomly.

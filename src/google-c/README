@@ -1,0 +1,21 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         c-google
+Module       Dense/Sparse Hash Table
+Author       Craig Silverstein
+Description  in-memory hash tables
+Download     http://github.com/sparsehash/sparsehash
+Date         2005, 2010
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were locally copied from latest git version:
+  - libchash.h
+  - libchash.c
+
+Both have been subject to modifications in order to compile the files as a standalone module
+to avoid inclusion of header <sparsehash/internal/sparseconfig.h>

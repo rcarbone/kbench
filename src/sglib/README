@@ -1,0 +1,127 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         sglib
+Module       sglib-hash table - Hashed table included in sglib
+Author       Marian Vittek (vittek@fmph.uniba.sk) (now maintained by Stefan Tauner)
+Description  A simple generic library for C
+Download     http://github.com/stefanct/sglib
+Date         2003-2005
+Language     C macro
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+Warning: sglib lacks basic APIs such as counting how many elements are in the hash table.
+=========================================================================================
+
+sglib acts on existing user defined data structures via a generic interface.
+The structure is entirely defined by the user, sglib does not provide
+any default implementation.
+
+
+In order to use the sglib hash table implementation you need to define:
+
+  1. the initial hash size (zero is illegal)
+     (HASHSIZE in our example)
+
+     the performaces and memory strictly depends on this value
+
+  2. the type of the objects to store in the hash table
+     (eg. typedef obj_t in our example)
+     the definition must include a self pointer to make the structure hashable
+
+  3. a compare function for both integer/string keys
+     (cmp_obj in our example)
+
+  4. a hash function for both integer/string keys
+      (hash_int in our example for intgers keys)
+      eg. static uint32_t hash_int_f (obj_t * obj);
+
+  5. Generates typedef and inline functions for the base container (usually a linked list)
+     SGLIB_DEFINE_LIST_PROTOTYPES()
+     SGLIB_DEFINE_LIST_FUNCTIONS()
+
+  6. 6. Generates typedef and inline functions for hash table
+     SGLIB_DEFINE_HASHED_CONTAINER_PROTOTYPES()
+     SGLIB_DEFINE_HASHED_CONTAINER_FUNCTIONS()
+
+
+
+Example:
+========
+
+#define HASHSIZE  100000
+
+typedef struct obj obj_t;
+struct obj_t
+{
+  unsigned ukey;           /* unsigned key */
+  char * skey;             /* string key   */
+  unsigned uval;           /* unsigned val */
+  char * sval;             /* string val   */
+  obj_t * self;            /* self pointer */
+
+  obj_t * _private_;       /* field needed to make the object hash-able */
+
+} obj_t;
+
+
+/* A compare functions for both integers/strings keys */
+static int cmp_objs (obj_t * a, obj_t * b)
+{
+  if (! a -> skey)
+    return a -> ukey - b -> ukey;
+  else
+    return strcmp (a -> skey, b -> skey);
+}
+
+
+/* hash functions for both integers/strings keys */
+
+/* Stolen from java 1.4 source (as found in Niels Provos's hash table) */
+static inline unsigned java_hash (unsigned h)
+{
+  h += ~(h << 9);
+  h ^=  ((h >> 14) | (h << 18)); /* >>> */
+  h +=  (h << 4);
+  h ^=  ((h >> 10) | (h << 22)); /* >>> */
+  return h;
+}
+
+
+/* Basic string hash function from Python (as found in Niels Provos's hash table) */
+static inline unsigned python_hash (const char * s)
+{
+  unsigned h;
+  const unsigned char * cp = (const unsigned char *) s;
+  h = * cp << 7;
+  while (* cp)
+    h = (1000003 * h) ^ * cp ++;
+
+  /* This conversion truncates the length of the string, but that's ok */
+  h ^= (unsigned) (cp - (const unsigned char *) s);
+
+  return h;
+}
+
+
+/* A hash function for both integer/string keys */
+static uint32_t hash_obj (obj_t * obj)
+{
+  if (! obj -> skey)
+    return java_hash (obj -> ukey);
+  else
+    return python_hash (obj -> skey);
+}
+
+
+/* The base container is usually a linked list */
+SGLIB_DEFINE_LIST_PROTOTYPES (obj_t, cmp_objs, _private_)
+SGLIB_DEFINE_LIST_FUNCTIONS (obj_t, cmp_objs, _private_)
+
+
+/* The hash container with an initial size */
+SGLIB_DEFINE_HASHED_CONTAINER_PROTOTYPES (obj_t, HASHSIZE, hash_obj)
+SGLIB_DEFINE_HASHED_CONTAINER_FUNCTIONS (obj_t, HASHSIZE, hash_obj)

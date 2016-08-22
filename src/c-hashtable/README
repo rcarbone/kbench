@@ -1,0 +1,30 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         c-hashtable
+Module       c-hashtable
+Author       Christopher Clark (christopher.clark@cl.cam.ac.uk)
+Description  C Hash Table - hash table data structure in C
+Download     http://github.com/davidar/c-hashtable
+Date         2002, 2007
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were locally copied from a git mirror by David A Roberts available at:
+  http://github.com/davidar/c-hashtable
+
+  - hashtable.h
+  - hashtable.c
+  - hashtable_private.h
+
+
+No modification was needed to compile the files as a standalone module.
+
+The following modification was needed to fix a bug:
+  - hashtable.c  =>  don't free the key that was not malloced in the library during entry setup
+
+
+Hash table data structure in C by Christopher Clark was originally at http://www.cl.cam.ac.uk/~cwc22/hashtable

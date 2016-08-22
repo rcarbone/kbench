@@ -1,0 +1,15 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         tcl
+Module       hashtable
+Author       John Ousterhout
+Description  Tcl (the Tool Command Language)
+Download     http://www.tcl.tk
+Date         1987, 2016
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+sudo apt-get install tcl8.6-dev

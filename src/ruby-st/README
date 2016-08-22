@@ -1,0 +1,22 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         ruby
+Module       ruby-ht
+Author       Yukihiro Matsumoto (matz@ruby-lang.org)
+Description  hash table implementation bundled with ruby (based on st hash table package by Peter Moore @ UCB)
+Download     http://www.ruby-lang.org/en/downloads
+Date         1995, 2016
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were copied from the ruby-2.3.1 distribution:
+
+  - st.c
+  - st.h
+  - ccan/
+
+Both st.c and st.h have been subject to modifications in order to compile the files as a standalone module.

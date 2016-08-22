@@ -1,0 +1,21 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         stb
+Module       idict && sdict 
+Author       Sean T. Barrett (sean@nothings.org)
+Description  single-file public domain libraries for C/C++
+Download     http://github.com/nothings/stb
+Date         2009
+Language     C macro
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were copied from latest git version:
+
+  - stb.h
+
+  + I hacked a bit the header file in order to eliminate all the code that is not related to the hash tables
+  ! Fixed a segmentation violation due to conditional jump on an initialized value (malloc replaced with calloc)

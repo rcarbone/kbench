@@ -1,0 +1,20 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         uthash
+Module       hash table
+Author       Troy D. Hanson ()
+Description  C macros for hash tables and more
+Download     http://github.com/troydhanson/uthash
+Date         2003, 2016
+Language     C macro
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were copied from latest git version:
+
+  - uthash.h
+
+No modification was needed.

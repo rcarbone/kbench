@@ -1,0 +1,13 @@
+Test case described in:
+=======================
+  Benchmark of Dictionary Structures
+  https://lh3lh3.users.sourceforge.net/udb.shtml
+
+ 1) Generate a random array of 5 million elements with 1,25 million (exactly 1,227,176) of distinct integer/string keys
+ 2) To benchmark hash table with string keys, the same integer array is converted to char* array using sprintf()
+ 3) Each element is then tested whether it is present in the hash table
+     * delete if present
+     * add if absent
+ 4) 625,792 distinct keys will be left in the hash after this process
+ 5) Evaluate time/memory spent for the execution of the test
+

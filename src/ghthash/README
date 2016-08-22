@@ -1,0 +1,20 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         libghthash
+Module       ght
+Author       Simon Kagstrom (ska@bth.se)
+Description  The Generic Hash Table (GHT)
+Download     http://github.com/SimonKagstrom/libghthash
+Date         2002, 2005
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were locally copied from latest git version:
+
+  - ght_hash_table.h
+  - hash_table.c
+  - hash_functions.c

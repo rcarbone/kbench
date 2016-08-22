@@ -1,0 +1,15 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         apr
+Module       hashtable
+Author       Apache Software Foundation (ASF)
+Description  Apache Portable Runtime Library
+Download     http://apache.org
+Date         2011, 2016
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+sudo apt-get install libapr1-dev
