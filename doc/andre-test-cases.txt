@@ -1,0 +1,10 @@
+Author: Andre' Medeiros (me@andremedeiros.info)
+
+Test case implemented in hash_benchmark (https://github.com/andremedeiros/hash_benchmark)
+=========================================================================================
+
+* Writes
+* Reads
+* Random reads
+* Non-existant key reads
+* Write & Delete (same key)

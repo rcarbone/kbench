@@ -171,6 +171,12 @@ sub print_data
 	      print "hashit-";
 	      print fmtstr (@hit [1], $MAXNAME - 7);
 	    }
+	  elsif (@name [1] eq "tommyds")
+	    {
+	      my @hit = split "-", @name [2];
+	      print "tommyds-";
+	      print fmtstr (@hit [1], $MAXNAME - 8);
+	    }
 	  elsif (@name [1] eq "google-c")
 	    {
 	      my @hit = split "-", @name [2];

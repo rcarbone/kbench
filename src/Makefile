@@ -3,6 +3,7 @@ SUBDIRS  = run-it
 SUBDIRS += apr
 SUBDIRS += c-algoritms
 SUBDIRS += ccan
+SUBDIRS += CDS
 SUBDIRS += cfu
 SUBDIRS += c-hashtable
 SUBDIRS += gcc-libiberty
@@ -28,7 +29,7 @@ SUBDIRS += sys-glib
 SUBDIRS += sys-LuaHashMap
 SUBDIRS += sys-perl
 SUBDIRS += sys-python
-SUBDIRS += sys-ruby
+# SUBDIRS += sys-ruby   # need to call rb_protect()
 SUBDIRS += sys-tcl
 
 # Fake targets

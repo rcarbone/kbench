@@ -1,0 +1,26 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         CDS
+Module       HashMap
+Author       ZongXian Shen (andy.zsshen@gmail.com)
+Description  LibCDS - a set of uniform C APIs for data structure manipulation
+Download     http://github.com/ZSShen/C-Common-Data-Structures
+Date         2015, 2016
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were locally copied from latest git version:
+
+  - hash_map.h
+  - hash_map.c
+  - util.h
+
+The following files have been subject to modifications in order to compile them as a standalone module:
+  - hash_map.h
+  - hash_map.c
+
+Moreover I fixed 1 warning message at line 182 of hash_map.c about 'data' may be used unitialized.

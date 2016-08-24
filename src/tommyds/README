@@ -17,5 +17,10 @@ The following sources files were locally copied from latest git version:
   - tommytypes.h
   - tommylist.h
   - tommyhash.h
+  - tommyhash.c
+  - tommyhashtbl.h
+  - tommyhashtbl.c
+  - tommyhashlin.h
+  - tommyhashlin.c
   - tommyhashdyn.h
   - tommyhashdyn.c
