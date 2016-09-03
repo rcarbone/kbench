@@ -30,7 +30,9 @@ SUBDIRS += sys-LuaHashMap
 SUBDIRS += sys-perl
 SUBDIRS += sys-python
 # SUBDIRS += sys-ruby   # need to call rb_protect()
+SUBDIRS += sys-sparsehash
 SUBDIRS += sys-tcl
+SUBDIRS += sys-unordered-map
 
 # Fake targets
 .PHONY: all clean distclean ${SUBDIRS}

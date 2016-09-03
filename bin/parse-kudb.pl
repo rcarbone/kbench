@@ -183,6 +183,12 @@ sub print_data
 	      print "google-c-";
 	      print fmtstr (@hit [1], $MAXNAME - 9);
 	    }
+	  elsif (@name [1] eq "sys-sparsehash")
+	    {
+	      my @hit = split "-", @name [2];
+	      print "google-";
+	      print fmtstr (@hit [1], $MAXNAME - 7);
+	    }
 	  else
 	    {
 	      print fmtstr (@name [1], $MAXNAME);
