@@ -189,6 +189,18 @@ sub print_data
 	      print "google-";
 	      print fmtstr (@hit [1], $MAXNAME - 7);
 	    }
+	  elsif (@name [1] eq "sys-gcc-stl")
+	    {
+	      my @hit = split "-", @name [2];
+	      print "stl-";
+	      print fmtstr (@hit [1], $MAXNAME - 4);
+	    }
+	  elsif (@name [1] eq "sys-Qt")
+	    {
+	      my @hit = split "-", @name [2];
+	      print "Qt-";
+	      print fmtstr (@hit [1], $MAXNAME - 3);
+	    }
 	  else
 	    {
 	      print fmtstr (@name [1], $MAXNAME);

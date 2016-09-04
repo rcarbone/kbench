@@ -25,14 +25,16 @@ SUBDIRS += ulib
 SUBDIRS += uthash
 
 SUBDIRS += sys-apr
+SUBDIRS += sys-boost
+SUBDIRS += sys-gcc-stl
 SUBDIRS += sys-glib
 SUBDIRS += sys-LuaHashMap
 SUBDIRS += sys-perl
 SUBDIRS += sys-python
+SUBDIRS += sys-Qt
 # SUBDIRS += sys-ruby   # need to call rb_protect()
 SUBDIRS += sys-sparsehash
 SUBDIRS += sys-tcl
-SUBDIRS += sys-unordered-map
 
 # Fake targets
 .PHONY: all clean distclean ${SUBDIRS}
