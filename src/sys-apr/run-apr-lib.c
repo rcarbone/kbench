@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #include "benchmark.h"
 
 /* The implementation */
