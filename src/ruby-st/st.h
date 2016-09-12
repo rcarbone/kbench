@@ -27,9 +27,16 @@ RUBY_SYMBOL_EXPORT_BEGIN
 
 #define HAVE_LIMITS_H
 
+#if defined(__i386__) || defined(__i486__) || defined(__i586__) || defined(__i686__)
+#define SIZEOF_INT   4   /* sizeof(int) */
+#define SIZEOF_LONG  4   /* sizeof(long) */
+#define SIZEOF_VOIDP 4   /* sizeof(void *) */
+#else
 #define SIZEOF_INT   4   /* sizeof(int) */
 #define SIZEOF_LONG  8   /* sizeof(long) */
 #define SIZEOF_VOIDP 8   /* sizeof(void *) */
+#endif
+
 
 #endif /* ROCCO_WAS_HERE */
 
