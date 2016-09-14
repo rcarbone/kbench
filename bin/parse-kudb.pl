@@ -201,6 +201,12 @@ sub print_data
 	      print "Qt-";
 	      print fmtstr (@hit [1], $MAXNAME - 3);
 	    }
+	  elsif (@name [1] eq "mct")
+	    {
+	      my @hit = split "-", @name [2];
+	      print "mct-";
+	      print fmtstr (@hit [1], $MAXNAME - 4);
+	    }
 	  else
 	    {
 	      print fmtstr (@name [1], $MAXNAME);

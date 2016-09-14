@@ -16,6 +16,7 @@ SUBDIRS += hhash
 SUBDIRS += htable
 SUBDIRS += khash
 SUBDIRS += libevent
+SUBDIRS += mct
 SUBDIRS += python
 SUBDIRS += rdestl
 SUBDIRS += ruby-st
