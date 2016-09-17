@@ -1,6 +1,7 @@
 # List of subdirectories
 SUBDIRS  = run-it
 SUBDIRS += apr
+SUBDIRS += amt
 SUBDIRS += c-algoritms
 SUBDIRS += ccan
 SUBDIRS += CDS
