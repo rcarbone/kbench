@@ -1,0 +1,15 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Sep 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         judy
+Module       dynamic array
+Author       Doug Baskinks (dougbaskins@yahoo.com)
+Description  Judy - C library creating and accessing dynamic arrays
+Download     http://judy.sourceforge.net
+Date         2004, 2007
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+sudo apt-get install libjudy-dev

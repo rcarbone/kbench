@@ -1,7 +1,7 @@
 # List of subdirectories
 SUBDIRS  = run-it
 SUBDIRS += apr
-SUBDIRS += amt
+SUBDIRS += amtl
 SUBDIRS += c-algoritms
 SUBDIRS += ccan
 SUBDIRS += CDS
@@ -32,6 +32,7 @@ SUBDIRS += sys-apr
 SUBDIRS += sys-boost
 SUBDIRS += sys-gcc-stl
 SUBDIRS += sys-glib
+SUBDIRS += sys-judy
 SUBDIRS += sys-LuaHashMap
 SUBDIRS += sys-perl
 SUBDIRS += sys-python

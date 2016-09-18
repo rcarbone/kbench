@@ -1,0 +1,29 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Sep 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         amtl
+Module       hashmap
+Author       David Anderson and AlliedModders LLC
+Description  AlliedModders's' C++ Template Library
+Download     http://github.com/alliedmodders/amtl
+Date         2013, 2016
+Language     C++
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were locally copied from latest git version:
+  - amtl/am-hashmap.h
+  - amtl/am-hashtable.h
+
+  - amtl/am-allocator-policies.h
+  - amtl/am-autoptr.h
+  - amtl/am-bits.h
+  - amtl/am-cxx.h
+  - amtl/am-moveable.h
+  - amtl/am-platform.h
+  - amtl/am-raii.h
+  - amtl/am-string.h
+  - amtl/am-type-traits.h
+  - amtl/am-utility.h

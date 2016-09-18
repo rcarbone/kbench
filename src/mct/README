@@ -1,0 +1,23 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Sep 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         mct
+Module       hash table containers
+Author       Paul Pogonyshev (pogonyshev@gmail.net)
+Description  Miscellaneous Container Templates
+Download     https://launchpad.net/libmct
+Date         2012, 2013
+Language     C++
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were locally copied from latest git version:
+  - mct/config.hpp
+  - mct/hash-map.hpp
+  - mct/intrusiveness.hpp
+
+  - mct/impl/closed-hash-table.hpp
+  - mct/impl/optimization.hpp
+  - mct/impl/utils.hpp
