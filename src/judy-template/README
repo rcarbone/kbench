@@ -1,0 +1,22 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Sep 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         judyarray++
+Module       C++ Templates for Judy Array
+Author       Mark Pictor (mpictor@gmail.com)
+Description  C++ template wrappers for Judy Array (use of Karl Malbrain's implementation)
+Download     http://github.com/mpictor/judy-template
+Date         2013, 2015
+Language     C++ templates
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were locally copied from latest git version:
+  - judyLArray.h
+  - judyLArray.h
+  - judy.h
+  - judy.c
+
+I have been a small modification to judyLArray.h in order to change the interface to removeEntry() method

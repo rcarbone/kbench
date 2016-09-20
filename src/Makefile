@@ -15,6 +15,7 @@ SUBDIRS += google-c
 SUBDIRS += hashit
 SUBDIRS += hhash
 SUBDIRS += htable
+SUBDIRS += judy-template
 SUBDIRS += khash
 SUBDIRS += libevent
 SUBDIRS += mct
