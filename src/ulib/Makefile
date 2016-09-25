@@ -1,4 +1,4 @@
 # The name of the games
-MAINSRCS = run-ulib.c
+MAINSRCS = run-ulib-open.c
 
 include ../../etc/Make.rules

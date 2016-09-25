@@ -1,6 +1,6 @@
 # The name of the games
-C++MAINSRCS  = run-closed.cpp
-C++MAINSRCS += run-linked.cpp
+C++MAINSRCS  = run-mct-closed.cpp
+C++MAINSRCS += run-mct-linked.cpp
 
 INCLUDE      = -Imct
 C++FLAGS     = -Wno-sign-compare

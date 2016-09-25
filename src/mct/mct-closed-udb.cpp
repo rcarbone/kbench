@@ -1,19 +1,5 @@
-#include <stdlib.h>
-#include <string>
 
-#include "benchmark.h"
-
-/* The implementation */
-#include "mct/hash-map.hpp"
-
-/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
-
-typedef mct::linked_hash_map<unsigned, unsigned> hashtable_int_t;
-typedef mct::linked_hash_map<std::string, unsigned> hashtable_str_t;
-
-/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
-
-int udb_int (int n, const unsigned * keys)
+unsigned udb_int (unsigned n, unsigned * keys)
 {
   hashtable_int_t * ht = new hashtable_int_t;
   unsigned i;
@@ -36,7 +22,7 @@ int udb_int (int n, const unsigned * keys)
 }
 
 
-int udb_str (int n, char * const * keys)
+unsigned udb_str (unsigned n, char ** keys)
 {
   hashtable_str_t * ht = new hashtable_str_t;
   unsigned i;
@@ -56,10 +42,4 @@ int udb_str (int n, char * const * keys)
   delete ht;
 
   return count;
-}
-
-
-int main (int argc, char * argv [])
-{
-  return udb_benchmark (argc, argv, udb_int, udb_str);
 }

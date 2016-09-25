@@ -74,73 +74,11 @@ static int str_cmp_f (obj_t * a, obj_t * b)
 
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
-int udb_int (int n, const unsigned * keys)
-{
-  obj_t * objs = calloc (n, sizeof (obj_t));
-  ht_int_t * ht = calloc (1, sizeof (* ht));
-  unsigned i;
-  unsigned count;
-
-  for (i = 0; i < n; i ++)
-    {
-      objs [i] . ukey = keys [i];
-      objs [i] . uval = i;
-    }
-
-  HT_INIT (evht_int, ht);
-
-  for (i = 0; i < n; i ++)
-    {
-      obj_t * hit = HT_FIND (evht_int, ht, & objs [i]);
-      if (hit)
-	HT_REMOVE (evht_int, ht, hit);
-      else
-	HT_INSERT (evht_int, ht, & objs [i]);
-    }
-
-  count = HT_SIZE (ht);
-
-  HT_CLEAR (evht_int, ht);
-  free (ht);
-  free (objs);
-
-  return count;
-}
-
-
-int udb_str (int n, char * const * keys)
-{
-  obj_t * objs = calloc (n, sizeof (obj_t));
-  ht_str_t * ht = calloc (1, sizeof (* ht));
-  unsigned i;
-  unsigned count;
-
-  for (i = 0; i < n; i ++)
-    {
-      strcpy (objs [i] . skey, keys [i]);
-      objs [i] . uval = i;
-    }
-
-  for (i = 0; i < n; i ++)
-    {
-      obj_t * hit = HT_FIND (evht_str, ht, & objs [i]);
-      if (hit)
-	HT_REMOVE (evht_str, ht, hit);
-      else
-	HT_INSERT (evht_str, ht, & objs [i]);
-    }
-
-  count = HT_SIZE (ht);
-
-  HT_CLEAR (evht_str, ht);
-  free (ht);
-  free (objs);
-
-  return count;
-}
+#include "libevent-udb.c"
+#include "libevent-grow.c"
 
 
 int main (int argc, char * argv [])
 {
-  return udb_benchmark (argc, argv, udb_int, udb_str);
+  return udb_benchmark (argc, argv, udb_int, udb_str, grow_int, grow_str);
 }

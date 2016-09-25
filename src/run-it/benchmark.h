@@ -1,14 +1,23 @@
-#ifndef _BENCHMARK_H_
-#define _BENCHMARK_H_
+#ifndef UDB_BENCHMARK_H
+#define UDB_BENCHMARK_H
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
-int udb_benchmark (int argc, char * argv [], int (* func_int) (int, const unsigned *), int (* func_str) (int, char * const *));
+  /* Dataset init functions */
+  void udb_init_data (unsigned n);
+  void grow_init_data (unsigned n);
+
+  int udb_benchmark (int argc, char * argv [],
+		     unsigned (* udb_int) (unsigned, unsigned *),
+		     unsigned (* udb_str) (unsigned, char **),
+		     unsigned (* grow_int) (unsigned, unsigned *),
+		     unsigned (* grow_str) (unsigned, char **)
+		     );
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif /* ! _BENCHMARK_H_ */
+#endif /* ! _UDB_BENCHMARK_H_ */

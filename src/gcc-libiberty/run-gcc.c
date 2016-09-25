@@ -35,59 +35,11 @@ static int eq_str_fn (const void * key1, const void * key2)
 
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
 
-int udb_int (int n, const unsigned * keys)
-{
-  htab_t ht = htab_create (0, hash_int_fn, eq_int_fn, NULL);
-  unsigned i;
-  unsigned count;
-
-  for (i = 0; i < n; i ++)
-    {
-      if (htab_find (ht, & keys [i]))
-	htab_remove_elt (ht, (void *) & keys [i]);
-      else
-	{
-	  void ** elem = htab_find_slot (ht, & keys [i], INSERT);
-	  if (elem)
-	    * elem = (void *) & keys [i];
-	}
-    }
-
-  count = htab_elements (ht);
-
-  htab_delete (ht);
-
-  return count;
-}
-
-
-int udb_str (int n, char * const * keys)
-{
-  htab_t ht = htab_create (0, hash_str_fn, eq_str_fn, NULL);
-  unsigned i;
-  unsigned count;
-
-  for (i = 0; i < n; i ++)
-    {
-      if (htab_find (ht, keys [i]))
-	htab_remove_elt (ht, keys [i]);
-      else
-	{
-	  void ** elem = htab_find_slot (ht, keys [i], INSERT);
-	  if (elem)
-	    * elem = (void *) keys [i];
-	}
-    }
-
-  count = htab_elements (ht);
-
-  htab_delete (ht);
-
-  return count;
-}
+#include "gcc-udb.c"
+#include "gcc-grow.c"
 
 
 int main (int argc, char * argv [])
 {
-  return udb_benchmark (argc, argv, udb_int, udb_str);
+  return udb_benchmark (argc, argv, udb_int, udb_str, grow_int, grow_str);
 }
