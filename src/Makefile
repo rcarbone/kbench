@@ -1,46 +1,46 @@
 # List of subdirectories
 SUBDIRS  = run-it
-# SUBDIRS += apr
+SUBDIRS += apr
 SUBDIRS += amtl
-# SUBDIRS += c-algoritms
+SUBDIRS += c-algoritms
 SUBDIRS += ccan
-# SUBDIRS += CDS
-# SUBDIRS += cfu
-# SUBDIRS += c-hashtable
+SUBDIRS += CDS
+SUBDIRS += cfu
+SUBDIRS += c-hashtable
 SUBDIRS += eastl
 SUBDIRS += gcc-libiberty
-# SUBDIRS += generic-c-hashmap
+SUBDIRS += generic-c-hashmap
 SUBDIRS += ghthash
-# SUBDIRS += google-c
+SUBDIRS += google-c
 SUBDIRS += hashit
 SUBDIRS += hhash
-# SUBDIRS += htable
+SUBDIRS += htable
 # SUBDIRS += judy-template
 SUBDIRS += khash
 SUBDIRS += libevent
 SUBDIRS += mct
 SUBDIRS += python
 SUBDIRS += rdestl
-# SUBDIRS += ruby-st
-# SUBDIRS += st
+SUBDIRS += ruby-st
+SUBDIRS += st
 SUBDIRS += stb
-# SUBDIRS += sglib
+SUBDIRS += sglib
 SUBDIRS += tommyds
 SUBDIRS += ulib
-# SUBDIRS += uthash
+SUBDIRS += uthash
 
-# SUBDIRS += sys-apr
-# SUBDIRS += sys-boost
-# SUBDIRS += sys-gcc-stl
+SUBDIRS += sys-apr
+SUBDIRS += sys-boost
+SUBDIRS += sys-gcc-stl
 SUBDIRS += sys-glib
 SUBDIRS += sys-judy
-# SUBDIRS += sys-LuaHashMap
-# SUBDIRS += sys-perl
-# SUBDIRS += sys-python
+SUBDIRS += sys-LuaHashMap
+SUBDIRS += sys-perl
+SUBDIRS += sys-python
 SUBDIRS += sys-Qt
 # SUBDIRS += sys-ruby   # need to call rb_protect()
 SUBDIRS += sys-sparsehash
-# SUBDIRS += sys-tcl
+SUBDIRS += sys-tcl
 
 # Fake targets
 .PHONY: all clean distclean ${SUBDIRS}

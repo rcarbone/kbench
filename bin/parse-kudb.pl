@@ -46,7 +46,7 @@ sub fill_data
   my %data;
 
   # handle test name implementation and test type (integer or string)
-  if (m/Running test (.+) \(-(.+)\)/) { $data{'name'} = $1; $data{'type'} = $2; }
+  if (m/Running test (.+) \(-(.+)\) \(-(.+)\)/) { $data{'name'} = $1; $data{'type'} = $2; }
 
   # loop over input lines until the end of the section
   while (<$HANDLE>)
@@ -75,7 +75,7 @@ sub fill_data
       last if (defined $data{'avgvsize'});
     }
 
-  # return reference
+  # return the reference to the hash
   return \%data;
 }
 
@@ -155,7 +155,7 @@ sub print_data
     {
       my %data = %$_;       # derefence hash
 
-      if ($data{'type'} eq $type && $data{'cpu'} != 0)
+      if ($data{'type'} eq "-$type" && $data{'cpu'} != 0)
 	{
 	  my @name = split "/", $data{'name'};
 
