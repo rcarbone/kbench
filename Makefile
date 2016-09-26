@@ -31,12 +31,15 @@ distrib:
 DRIVER   = src/run-it/run-it
 PROGRAMS = $(shell ls -1 src/*/run-*)
 TYPES    = i s
+DATASETS = 1 2
 run:
-	@for t in ${TYPES}; do \
-           for p in ${PROGRAMS} ; do \
-             if [ -x $$p ] ; then \
-               echo "Running test $$p (-$$t). Please wait ..." ; \
-               ${DRIVER} $$p -$$t ; \
-             fi \
+	@for d in ${DATASETS}; do \
+           for t in ${TYPES}; do \
+             for p in ${PROGRAMS} ; do \
+               if [ -x $$p -a "$$p" != "${DRIVER}" ] ; then \
+                 echo "Running test $$p (-$$t) (-$$d). Please wait ..." ; \
+                 ${DRIVER} $$p -$$t -$$d ; \
+               fi \
+             done \
            done \
          done
