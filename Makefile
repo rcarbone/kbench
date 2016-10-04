@@ -43,3 +43,11 @@ run:
              done \
            done \
          done
+
+runs:
+	@for p in ${PROGRAMS} ; do \
+           if [ -x $$p -a "$$p" != "${DRIVER}" ] ; then \
+             echo "Running test $$p (-s) (-1). Please wait ..." ; \
+             ${DRIVER} $$p -s -1 ; \
+           fi \
+         done

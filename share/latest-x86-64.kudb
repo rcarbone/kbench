@@ -1,4132 +1,1076 @@
-Running test src/amtl/run-amtl (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 0.360 (= 0.350 + 0.010)
-[benchmark] rss diff: 416.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/amtl/run-amtl -i -1
-
--- totalmem      16237192.000 kB
--- available     13148408.000 kB
--- free           8483568.000 kB
-
--- retval                   0
--- real                 1.227 sec
--- user                 1.130 sec
--- sys                  0.080 sec
--- maxrss          253148.000 kB
--- avgrss          151698.600 kB
--- maxvsize        264804.000 kB
--- avgvsize        182715.333 kB
-
-Running test src/apr/run-apr (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.850 (= 1.840 + 0.010)
-[benchmark] rss diff: 364.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/apr/run-apr -i -1
-
--- totalmem      16237192.000 kB
--- available     13148408.000 kB
--- free           8483552.000 kB
-
--- retval                   0
--- real                 2.716 sec
--- user                 2.640 sec
--- sys                  0.060 sec
--- maxrss          253012.000 kB
--- avgrss          206011.970 kB
--- maxvsize        256436.000 kB
--- avgvsize        218089.556 kB
-
-Running test src/c-algoritms/run-c-alg (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.400 (= 1.370 + 0.030)
-[benchmark] rss diff: 19784.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/c-algoritms/run-c-alg -i -1
-
--- totalmem      16237192.000 kB
--- available     13148476.000 kB
--- free           8483616.000 kB
-
--- retval                   0
--- real                 2.249 sec
--- user                 2.160 sec
--- sys                  0.070 sec
--- maxrss          268176.000 kB
--- avgrss          201777.453 kB
--- maxvsize        272212.000 kB
--- avgvsize        215944.215 kB
-
-Running test src/ccan/run-ccan-htable (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 0.660 (= 0.660 + 0.000)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/ccan/run-ccan-htable -i -1
-
--- totalmem      16237192.000 kB
--- available     13182024.000 kB
--- free           8517164.000 kB
-
--- retval                   0
--- real                 1.514 sec
--- user                 1.440 sec
--- sys                  0.060 sec
--- maxrss          227100.000 kB
--- avgrss          163193.181 kB
--- maxvsize        231324.000 kB
--- avgvsize        181565.987 kB
-
-Running test src/CDS/run-CDS (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625793
-[int data] CPU time: 1.640 (= 1.630 + 0.010)
-[benchmark] rss diff: 19792.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/CDS/run-CDS -i -1
-
--- totalmem      16237192.000 kB
--- available     13200656.000 kB
--- free           8533168.000 kB
-
--- retval                   0
--- real                 2.561 sec
--- user                 2.440 sec
--- sys                  0.080 sec
--- maxrss          252232.000 kB
--- avgrss          199329.476 kB
--- maxvsize        255856.000 kB
--- avgvsize        211867.587 kB
-
-Running test src/cfu/run-cfu (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.870 (= 1.860 + 0.010)
-[benchmark] rss diff: 372.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/cfu/run-cfu -i -1
-
--- totalmem      16237192.000 kB
--- available     13202888.000 kB
--- free           8546748.000 kB
-
--- retval                   0
--- real                 3.068 sec
--- user                 2.930 sec
--- sys                  0.110 sec
--- maxrss          272360.000 kB
--- avgrss          207126.250 kB
--- maxvsize        276012.000 kB
--- avgvsize        221138.842 kB
-
-Running test src/c-hashtable/run-cwc (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215324.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 2.030 (= 2.000 + 0.030)
-[benchmark] rss diff: 352.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/c-hashtable/run-cwc -i -1
-
--- totalmem      16237192.000 kB
--- available     13247888.000 kB
--- free           8584840.000 kB
-
--- retval                   0
--- real                 3.313 sec
--- user                 3.130 sec
--- sys                  0.140 sec
--- maxrss          257480.000 kB
--- avgrss          201365.138 kB
--- maxvsize        264524.000 kB
--- avgvsize        217791.657 kB
-
-Running test src/eastl/run-ea (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.440 (= 1.410 + 0.030)
-[benchmark] rss diff: 420.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/eastl/run-ea -i -1
-
--- totalmem      16237192.000 kB
--- available     13236140.000 kB
--- free           8563904.000 kB
-
--- retval                   0
--- real                 3.251 sec
--- user                 3.060 sec
--- sys                  0.120 sec
--- maxrss          244660.000 kB
--- avgrss          171075.950 kB
--- maxvsize        256512.000 kB
--- avgvsize        197969.447 kB
-
-Running test src/gcc-libiberty/run-gcc (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.020 (= 1.010 + 0.010)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/gcc-libiberty/run-gcc -i -1
-
--- totalmem      16237192.000 kB
--- available     13236240.000 kB
--- free           8578212.000 kB
-
--- retval                   0
--- real                 2.065 sec
--- user                 1.900 sec
--- sys                  0.100 sec
--- maxrss          240040.000 kB
--- avgrss          178098.160 kB
--- maxvsize        243608.000 kB
--- avgvsize        193478.660 kB
-
-Running test src/generic-c-hashmap/run-gc-hashmap (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 630572
-[int data] CPU time: 1.990 (= 1.910 + 0.080)
-[benchmark] rss diff: 10796.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/generic-c-hashmap/run-gc-hashmap -i -1
-
--- totalmem      16237192.000 kB
--- available     13231624.000 kB
--- free           8567372.000 kB
-
--- retval                   0
--- real                 2.984 sec
--- user                 2.820 sec
--- sys                  0.140 sec
--- maxrss          498700.000 kB
--- avgrss          361206.770 kB
--- maxvsize        502380.000 kB
--- avgvsize        375111.176 kB
-
-Running test src/ghthash/run-ght (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.950 (= 1.900 + 0.050)
-[benchmark] rss diff: 368.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/ghthash/run-ght -i -1
-
--- totalmem      16237192.000 kB
--- available     13231148.000 kB
--- free           8562132.000 kB
-
--- retval                   0
--- real                 2.991 sec
--- user                 2.840 sec
--- sys                  0.120 sec
--- maxrss          362480.000 kB
--- avgrss          273334.865 kB
--- maxvsize        366224.000 kB
--- avgvsize        285908.054 kB
-
-Running test src/google-c/run-dense (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 3.810 (= 3.780 + 0.030)
-[benchmark] rss diff: 376.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/google-c/run-dense -i -1
-
--- totalmem      16237192.000 kB
--- available     13228260.000 kB
--- free           8568704.000 kB
-
--- retval                   0
--- real                 4.880 sec
--- user                 4.740 sec
--- sys                  0.100 sec
--- maxrss          244404.000 kB
--- avgrss          207748.917 kB
--- maxvsize        247948.000 kB
--- avgvsize        217129.744 kB
-
-Running test src/google-c/run-sparse (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 4.060 (= 4.040 + 0.020)
-[benchmark] rss diff: 376.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/google-c/run-sparse -i -1
-
--- totalmem      16237192.000 kB
--- available     13226104.000 kB
--- free           8553652.000 kB
-
--- retval                   0
--- real                 5.183 sec
--- user                 5.080 sec
--- sys                  0.080 sec
--- maxrss          244404.000 kB
--- avgrss          209566.442 kB
--- maxvsize        247948.000 kB
--- avgvsize        218537.450 kB
-
-Running test src/hashit/run-chain (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.480 (= 1.410 + 0.070)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/hashit/run-chain -i -1
-
--- totalmem      16237192.000 kB
--- available     13246948.000 kB
--- free           8580804.000 kB
-
--- retval                   0
--- real                 2.585 sec
--- user                 2.400 sec
--- sys                  0.140 sec
--- maxrss          300468.000 kB
--- avgrss          215068.614 kB
--- maxvsize        304016.000 kB
--- avgvsize        231560.205 kB
-
-Running test src/hashit/run-open (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.050 (= 1.000 + 0.050)
-[benchmark] rss diff: 228.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/hashit/run-open -i -1
-
--- totalmem      16237192.000 kB
--- available     13245180.000 kB
--- free           8585620.000 kB
-
--- retval                   0
--- real                 2.075 sec
--- user                 1.940 sec
--- sys                  0.120 sec
--- maxrss          346448.000 kB
--- avgrss          228384.176 kB
--- maxvsize        350016.000 kB
--- avgvsize        248882.985 kB
-
-Running test src/hashit/run-overflow (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 636334
-[int data] CPU time: 1.360 (= 1.240 + 0.120)
-[benchmark] rss diff: 228.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/hashit/run-overflow -i -1
-
--- totalmem      16237192.000 kB
--- available     13224040.000 kB
--- free           8565980.000 kB
-
--- retval                   0
--- real                 2.384 sec
--- user                 2.120 sec
--- sys                  0.200 sec
--- maxrss          415944.000 kB
--- avgrss          287210.788 kB
--- maxvsize        464708.000 kB
--- avgvsize        335819.931 kB
-
-Running test src/hhash/run-hhash (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 0.820 (= 0.780 + 0.040)
-[benchmark] rss diff: 220.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/hhash/run-hhash -i -1
-
--- totalmem      16237192.000 kB
--- available     13202324.000 kB
--- free           8532972.000 kB
-
--- retval                   0
--- real                 2.578 sec
--- user                 2.380 sec
--- sys                  0.150 sec
--- maxrss          293476.000 kB
--- avgrss          175705.929 kB
--- maxvsize        297060.000 kB
--- avgvsize        197049.012 kB
-
-Running test src/htable/run-htable (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 2.410 (= 2.320 + 0.090)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/htable/run-htable -i -1
-
--- totalmem      16237192.000 kB
--- available     13217480.000 kB
--- free           8553880.000 kB
-
--- retval                   0
--- real                 3.649 sec
--- user                 3.440 sec
--- sys                  0.180 sec
--- maxrss          541132.000 kB
--- avgrss          379119.036 kB
--- maxvsize        544788.000 kB
--- avgvsize        395673.296 kB
-
-Running test src/khash/run-khash (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 0.300 (= 0.300 + 0.000)
-[benchmark] rss diff: 364.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/khash/run-khash -i -1
-
--- totalmem      16237192.000 kB
--- available     13210624.000 kB
--- free           8546496.000 kB
-
--- retval                   0
--- real                 1.469 sec
--- user                 1.370 sec
--- sys                  0.080 sec
--- maxrss          232520.000 kB
--- avgrss          134651.697 kB
--- maxvsize        236204.000 kB
--- avgvsize        161103.531 kB
-
-Running test src/libevent/run-le (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 0.820 (= 0.740 + 0.080)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/libevent/run-le -i -1
-
--- totalmem      16237192.000 kB
--- available     13210680.000 kB
--- free           8542548.000 kB
-
--- retval                   0
--- real                 2.072 sec
--- user                 1.840 sec
--- sys                  0.190 sec
--- maxrss          506416.000 kB
--- avgrss          269453.005 kB
--- maxvsize        510912.000 kB
--- avgvsize        293947.074 kB
-
-Running test src/mct/run-mct-closed (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 0.440 (= 0.430 + 0.010)
-[benchmark] rss diff: 420.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/mct/run-mct-closed -i -1
-
--- totalmem      16237192.000 kB
--- available     13210700.000 kB
--- free           8543376.000 kB
-
--- retval                   0
--- real                 1.580 sec
--- user                 1.460 sec
--- sys                  0.100 sec
--- maxrss          248924.000 kB
--- avgrss          147716.231 kB
--- maxvsize        260708.000 kB
--- avgvsize        179314.128 kB
-
-Running test src/mct/run-mct-linked (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.070 (= 1.040 + 0.030)
-[benchmark] rss diff: 424.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/mct/run-mct-linked -i -1
-
--- totalmem      16237192.000 kB
--- available     13210636.000 kB
--- free           8550660.000 kB
-
--- retval                   0
--- real                 1.929 sec
--- user                 1.850 sec
--- sys                  0.060 sec
--- maxrss          281672.000 kB
--- avgrss          189697.759 kB
--- maxvsize        293476.000 kB
--- avgvsize        213300.230 kB
-
-Running test src/python/run-python (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.350 (= 1.310 + 0.040)
-[benchmark] rss diff: 29572.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/python/run-python -i -1
-
--- totalmem      16237192.000 kB
--- available     13208840.000 kB
--- free           8539056.000 kB
-
--- retval                   0
--- real                 2.401 sec
--- user                 2.220 sec
--- sys                  0.100 sec
--- maxrss          264480.000 kB
--- avgrss          199704.172 kB
--- maxvsize        268096.000 kB
--- avgvsize        213340.483 kB
-
-Running test src/rdestl/run-rde (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 0.540 (= 0.520 + 0.020)
-[benchmark] rss diff: 420.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/rdestl/run-rde -i -1
-
--- totalmem      16237192.000 kB
--- available     13209088.000 kB
--- free           8542708.000 kB
-
--- retval                   0
--- real                 1.830 sec
--- user                 1.680 sec
--- sys                  0.110 sec
--- maxrss          265432.000 kB
--- avgrss          145853.910 kB
--- maxvsize        277096.000 kB
--- avgvsize        179480.180 kB
-
-Running test src/ruby-st/run-ruby-st (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 2.690 (= 2.670 + 0.020)
-[benchmark] rss diff: 364.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/ruby-st/run-ruby-st -i -1
-
--- totalmem      16237192.000 kB
--- available     13209108.000 kB
--- free           8549596.000 kB
-
--- retval                   0
--- real                 3.545 sec
--- user                 3.440 sec
--- sys                  0.080 sec
--- maxrss          255492.000 kB
--- avgrss          219698.795 kB
--- maxvsize        259064.000 kB
--- avgvsize        229517.625 kB
-
-Running test src/sglib/run-sglib (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 2.380 (= 2.320 + 0.060)
-[benchmark] rss diff: 228.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sglib/run-sglib -i -1
-
--- totalmem      16237192.000 kB
--- available     13208168.000 kB
--- free           8539296.000 kB
-
--- retval                   0
--- real                 3.222 sec
--- user                 3.090 sec
--- sys                  0.110 sec
--- maxrss          450568.000 kB
--- avgrss          362760.840 kB
--- maxvsize        454104.000 kB
--- avgvsize        376153.944 kB
-
-Running test src/stb/run-stb (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.220 (= 1.220 + 0.000)
-[benchmark] rss diff: 360.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/stb/run-stb -i -1
-
--- totalmem      16237192.000 kB
--- available     13208016.000 kB
--- free           8539616.000 kB
-
--- retval                   0
--- real                 2.099 sec
--- user                 2.040 sec
--- sys                  0.030 sec
--- maxrss          231992.000 kB
--- avgrss          183997.101 kB
--- maxvsize        235448.000 kB
--- avgvsize        198004.348 kB
-
-Running test src/st/run-st (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215260.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 2.730 (= 2.720 + 0.010)
-[benchmark] rss diff: 352.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/st/run-st -i -1
-
--- totalmem      16237192.000 kB
--- available     13208840.000 kB
--- free           8549508.000 kB
-
--- retval                   0
--- real                 3.621 sec
--- user                 3.560 sec
--- sys                  0.050 sec
--- maxrss          245776.000 kB
--- avgrss          210324.689 kB
--- maxvsize        249288.000 kB
--- avgvsize        220852.500 kB
-
-Running test src/sys-apr/run-apr-lib (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215412.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.960 (= 1.930 + 0.030)
-[benchmark] rss diff: 316.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-apr/run-apr-lib -i -1
-
--- totalmem      16237192.000 kB
--- available     13208292.000 kB
--- free           8539488.000 kB
-
--- retval                   0
--- real                 2.818 sec
--- user                 2.720 sec
--- sys                  0.060 sec
--- maxrss          256596.000 kB
--- avgrss          212043.223 kB
--- maxvsize        272908.000 kB
--- avgvsize        235868.345 kB
-
-Running test src/sys-boost/run-unordered-map (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.930 (= 1.930 + 0.000)
-[benchmark] rss diff: 428.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-boost/run-unordered-map -i -1
-
--- totalmem      16237192.000 kB
--- available     13208236.000 kB
--- free           8549160.000 kB
-
--- retval                   0
--- real                 3.266 sec
--- user                 3.110 sec
--- sys                  0.100 sec
--- maxrss          241752.000 kB
--- avgrss          185043.137 kB
--- maxvsize        253564.000 kB
--- avgvsize        208834.500 kB
-
-Running test src/sys-gcc-stl/run-map (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 6.920 (= 6.890 + 0.030)
-[benchmark] rss diff: 428.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-gcc-stl/run-map -i -1
-
--- totalmem      16237192.000 kB
--- available     13233228.000 kB
--- free           8561608.000 kB
-
--- retval                   0
--- real                 7.940 sec
--- user                 7.680 sec
--- sys                  0.090 sec
--- maxrss          245460.000 kB
--- avgrss          229258.162 kB
--- maxvsize        257268.000 kB
--- avgvsize        243751.645 kB
-
-Running test src/sys-gcc-stl/run-unordered-map (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.990 (= 1.970 + 0.020)
-[benchmark] rss diff: 436.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-gcc-stl/run-unordered-map -i -1
-
--- totalmem      16237192.000 kB
--- available     13230480.000 kB
--- free           8562024.000 kB
-
--- retval                   0
--- real                 3.527 sec
--- user                 3.340 sec
--- sys                  0.140 sec
--- maxrss          244640.000 kB
--- avgrss          185734.966 kB
--- maxvsize        256508.000 kB
--- avgvsize        209406.793 kB
-
-Running test src/sys-glib/run-glib (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215484.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.360 (= 1.350 + 0.010)
-[benchmark] rss diff: 596.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-glib/run-glib -i -1
-
--- totalmem      16237192.000 kB
--- available     13228960.000 kB
--- free           8563576.000 kB
-
--- retval                   0
--- real                 2.916 sec
--- user                 2.770 sec
--- sys                  0.060 sec
--- maxrss          230420.000 kB
--- avgrss          170973.371 kB
--- maxvsize        248520.000 kB
--- avgvsize        199114.276 kB
-
-Running test src/sys-judy/run-judy (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215292.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.490 (= 1.480 + 0.010)
-[benchmark] rss diff: 424.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-judy/run-judy -i -1
-
--- totalmem      16237192.000 kB
--- available     13229504.000 kB
--- free           8568520.000 kB
-
--- retval                   0
--- real                 2.332 sec
--- user                 2.260 sec
--- sys                  0.060 sec
--- maxrss          225320.000 kB
--- avgrss          185959.757 kB
--- maxvsize        231084.000 kB
--- avgvsize        201470.765 kB
-
-Running test src/sys-LuaHashMap/run-luahashmap (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215380.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 2.620 (= 2.560 + 0.060)
-[benchmark] rss diff: 480.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-LuaHashMap/run-luahashmap -i -1
-
--- totalmem      16237192.000 kB
--- available     13231156.000 kB
--- free           8569660.000 kB
-
--- retval                   0
--- real                 3.504 sec
--- user                 3.330 sec
--- sys                  0.140 sec
--- maxrss          281360.000 kB
--- avgrss          215315.032 kB
--- maxvsize        292040.000 kB
--- avgvsize        232388.634 kB
-
-Running test src/sys-perl/run-perl (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215612.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 7.640 (= 7.520 + 0.120)
-[benchmark] rss diff: 864.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-perl/run-perl -i -1
-
--- totalmem      16237192.000 kB
--- available     13237792.000 kB
--- free           8558408.000 kB
-
--- retval                   0
--- real                 8.980 sec
--- user                 8.420 sec
--- sys                  0.240 sec
--- maxrss          694984.000 kB
--- avgrss          494830.418 kB
--- maxvsize        713104.000 kB
--- avgvsize        516744.398 kB
-
-Running test src/sys-python/run-python (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215976.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.750 (= 1.650 + 0.100)
-[benchmark] rss diff: 410532.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-python/run-python -i -1
-
--- totalmem      16237192.000 kB
--- available     13244068.000 kB
--- free           8579048.000 kB
-
--- retval                   0
--- real                 2.870 sec
--- user                 2.610 sec
--- sys                  0.210 sec
--- maxrss          675488.000 kB
--- avgrss          342872.184 kB
--- maxvsize        695984.000 kB
--- avgvsize        374259.759 kB
-
-Running test src/sys-Qt/run-hash (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 217656.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.240 (= 1.240 + 0.000)
-[benchmark] rss diff: 396.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-Qt/run-hash -i -1
-
--- totalmem      16237192.000 kB
--- available     13241060.000 kB
--- free           8573536.000 kB
-
--- retval                   0
--- real                 2.199 sec
--- user                 2.140 sec
--- sys                  0.040 sec
--- maxrss          246580.000 kB
--- avgrss          189136.406 kB
--- maxvsize        313572.000 kB
--- avgvsize        267411.760 kB
-
-Running test src/sys-Qt/run-map (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 217676.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 7.190 (= 7.180 + 0.010)
-[benchmark] rss diff: 364.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-Qt/run-map -i -1
-
--- totalmem      16237192.000 kB
--- available     13212120.000 kB
--- free           8522784.000 kB
-
--- retval                   0
--- real                 8.322 sec
--- user                 8.200 sec
--- sys                  0.080 sec
--- maxrss          247236.000 kB
--- avgrss          228754.694 kB
--- maxvsize        314204.000 kB
--- avgvsize        298961.417 kB
-
-Running test src/sys-sparsehash/run-dense (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 0.590 (= 0.570 + 0.020)
-[benchmark] rss diff: 16684.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-sparsehash/run-dense -i -1
-
--- totalmem      16237192.000 kB
--- available     13207616.000 kB
--- free           8536644.000 kB
-
--- retval                   0
--- real                 1.738 sec
--- user                 1.600 sec
--- sys                  0.110 sec
--- maxrss          249072.000 kB
--- avgrss          159904.725 kB
--- maxvsize        260756.000 kB
--- avgvsize        188577.380 kB
-
-Running test src/sys-sparsehash/run-sparse (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215896.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 2.220 (= 2.220 + 0.000)
-[benchmark] rss diff: 444.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-sparsehash/run-sparse -i -1
-
--- totalmem      16237192.000 kB
--- available     13199784.000 kB
--- free           8530056.000 kB
-
--- retval                   0
--- real                 3.156 sec
--- user                 3.040 sec
--- sys                  0.070 sec
--- maxrss          225136.000 kB
--- avgrss          192799.884 kB
--- maxvsize        237092.000 kB
--- avgvsize        212325.029 kB
-
-Running test src/sys-tcl/run-tcl (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215628.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.660 (= 1.630 + 0.030)
-[benchmark] rss diff: 39484.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-tcl/run-tcl -i -1
-
--- totalmem      16237192.000 kB
--- available     13200932.000 kB
--- free           8536860.000 kB
-
--- retval                   0
--- real                 2.506 sec
--- user                 2.410 sec
--- sys                  0.070 sec
--- maxrss          256964.000 kB
--- avgrss          210050.543 kB
--- maxvsize        273508.000 kB
--- avgvsize        235301.668 kB
-
-Running test src/tommyds/run-dynamic (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.290 (= 1.170 + 0.120)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/tommyds/run-dynamic -i -1
-
--- totalmem      16237192.000 kB
--- available     13200736.000 kB
--- free           8536660.000 kB
-
--- retval                   0
--- real                 2.152 sec
--- user                 1.900 sec
--- sys                  0.230 sec
--- maxrss          746404.000 kB
--- avgrss          454501.623 kB
--- maxvsize        751428.000 kB
--- avgvsize        473299.340 kB
-
-Running test src/tommyds/run-fixed (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625690
-[int data] CPU time: 1.400 (= 1.220 + 0.180)
-[benchmark] rss diff: 352.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/tommyds/run-fixed -i -1
-
--- totalmem      16237192.000 kB
--- available     13197020.000 kB
--- free           8519928.000 kB
-
--- retval                   0
--- real                 2.359 sec
--- user                 1.990 sec
--- sys                  0.310 sec
--- maxrss          788716.000 kB
--- avgrss          479220.330 kB
--- maxvsize        792272.000 kB
--- avgvsize        499290.557 kB
-
-Running test src/tommyds/run-linear (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625690
-[int data] CPU time: 1.440 (= 1.350 + 0.090)
-[benchmark] rss diff: 352.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/tommyds/run-linear -i -1
-
--- totalmem      16237192.000 kB
--- available     13181768.000 kB
--- free           8516328.000 kB
-
--- retval                   0
--- real                 2.810 sec
--- user                 2.550 sec
--- sys                  0.200 sec
--- maxrss          732960.000 kB
--- avgrss          404556.975 kB
--- maxvsize        743164.000 kB
--- avgvsize        428110.895 kB
-
-Running test src/ulib/run-ulib-open (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 0.280 (= 0.270 + 0.010)
-[benchmark] rss diff: 364.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/ulib/run-ulib-open -i -1
-
--- totalmem      16237192.000 kB
--- available     13181576.000 kB
--- free           8516128.000 kB
-
--- retval                   0
--- real                 1.137 sec
--- user                 1.030 sec
--- sys                  0.080 sec
--- maxrss          232528.000 kB
--- avgrss          143800.901 kB
--- maxvsize        236200.000 kB
--- avgvsize        167354.162 kB
-
-Running test src/uthash/run-uthash (-i) (-1). Please wait ...
-[benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215252.000 kB
-[int data] # elements: 625792
-[int data] CPU time: 1.260 (= 1.160 + 0.100)
-[benchmark] rss diff: 372.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/uthash/run-uthash -i -1
-
--- totalmem      16237192.000 kB
--- available     13181844.000 kB
--- free           8516376.000 kB
-
--- retval                   0
--- real                 2.129 sec
--- user                 1.950 sec
--- sys                  0.160 sec
--- maxrss          618008.000 kB
--- avgrss          402250.229 kB
--- maxvsize        621956.000 kB
--- avgvsize        429085.848 kB
-
 Running test src/amtl/run-amtl (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
+[benchmark] initial rss: 215880.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.350 (= 1.320 + 0.030)
-[benchmark] rss diff: 19860.000 kB
+[str data] CPU time: 1.370 (= 1.320 + 0.050)
+[benchmark] rss diff: 19876.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/amtl/run-amtl -s -1
 
 -- totalmem      16237192.000 kB
--- available     13181564.000 kB
--- free           8516064.000 kB
+-- available     13323960.000 kB
+-- free           5809300.000 kB
 
 -- retval                   0
--- real                 2.216 sec
--- user                 2.090 sec
+-- real                 2.249 sec
+-- user                 2.120 sec
 -- sys                  0.110 sec
--- maxrss          332416.000 kB
--- avgrss          219506.922 kB
--- maxvsize        344360.000 kB
--- avgvsize        242269.735 kB
+-- maxrss          332420.000 kB
+-- avgrss          218821.730 kB
+-- maxvsize        344340.000 kB
+-- avgvsize        241286.721 kB
 
 Running test src/apr/run-apr (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.670 (= 1.650 + 0.020)
-[benchmark] rss diff: 364.000 kB
+[str data] CPU time: 2.100 (= 2.080 + 0.020)
+[benchmark] rss diff: 376.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/apr/run-apr -s -1
 
 -- totalmem      16237192.000 kB
--- available     13181360.000 kB
--- free           8515848.000 kB
+-- available     13325336.000 kB
+-- free           5810280.000 kB
 
 -- retval                   0
--- real                 2.538 sec
--- user                 2.420 sec
--- sys                  0.100 sec
--- maxrss          253012.000 kB
--- avgrss          204258.757 kB
--- maxvsize        256436.000 kB
--- avgvsize        216824.876 kB
+-- real                 3.013 sec
+-- user                 2.920 sec
+-- sys                  0.070 sec
+-- maxrss          253016.000 kB
+-- avgrss          209585.338 kB
+-- maxvsize        256420.000 kB
+-- avgvsize        221061.124 kB
 
 Running test src/c-algoritms/run-c-alg (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215252.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 2.020 (= 1.970 + 0.050)
-[benchmark] rss diff: 19792.000 kB
+[str data] CPU time: 2.030 (= 1.990 + 0.040)
+[benchmark] rss diff: 19796.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/c-algoritms/run-c-alg -s -1
 
 -- totalmem      16237192.000 kB
--- available     13181356.000 kB
--- free           8515848.000 kB
+-- available     13324992.000 kB
+-- free           5810392.000 kB
 
 -- retval                   0
--- real                 2.873 sec
--- user                 2.770 sec
--- sys                  0.080 sec
--- maxrss          268176.000 kB
--- avgrss          212748.898 kB
--- maxvsize        272212.000 kB
--- avgvsize        225110.681 kB
+-- real                 2.892 sec
+-- user                 2.780 sec
+-- sys                  0.100 sec
+-- maxrss          267252.000 kB
+-- avgrss          212595.972 kB
+-- maxvsize        272196.000 kB
+-- avgvsize        224661.561 kB
 
 Running test src/ccan/run-ccan-htable (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215252.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.200 (= 1.190 + 0.010)
-[benchmark] rss diff: 360.000 kB
+[str data] CPU time: 1.380 (= 1.370 + 0.010)
+[benchmark] rss diff: 372.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/ccan/run-ccan-htable -s -1
 
 -- totalmem      16237192.000 kB
--- available     13180924.000 kB
--- free           8515708.000 kB
+-- available     13313704.000 kB
+-- free           5795484.000 kB
 
 -- retval                   0
--- real                 2.059 sec
--- user                 1.970 sec
--- sys                  0.060 sec
--- maxrss          227100.000 kB
--- avgrss          178998.778 kB
--- maxvsize        231324.000 kB
--- avgvsize        193657.576 kB
+-- real                 2.657 sec
+-- user                 2.510 sec
+-- sys                  0.100 sec
+-- maxrss          227108.000 kB
+-- avgrss          177034.575 kB
+-- maxvsize        231308.000 kB
+-- avgvsize        191934.406 kB
 
 Running test src/CDS/run-CDS (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.870 (= 1.860 + 0.010)
-[benchmark] rss diff: 19792.000 kB
+[str data] CPU time: 2.390 (= 2.380 + 0.010)
+[benchmark] rss diff: 19804.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/CDS/run-CDS -s -1
 
 -- totalmem      16237192.000 kB
--- available     13186408.000 kB
--- free           8521120.000 kB
+-- available     13308956.000 kB
+-- free           5780696.000 kB
 
 -- retval                   0
--- real                 2.716 sec
--- user                 2.610 sec
--- sys                  0.080 sec
--- maxrss          252232.000 kB
--- avgrss          203886.275 kB
--- maxvsize        255856.000 kB
--- avgvsize        215706.602 kB
+-- real                 3.286 sec
+-- user                 3.190 sec
+-- sys                  0.060 sec
+-- maxrss          252236.000 kB
+-- avgrss          210845.383 kB
+-- maxvsize        255840.000 kB
+-- avgvsize        221206.889 kB
 
 Running test src/cfu/run-cfu (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.760 (= 1.720 + 0.040)
-[benchmark] rss diff: 372.000 kB
+[str data] CPU time: 2.010 (= 2.000 + 0.010)
+[benchmark] rss diff: 388.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/cfu/run-cfu -s -1
 
 -- totalmem      16237192.000 kB
--- available     13186664.000 kB
--- free           8521384.000 kB
+-- available     13311208.000 kB
+-- free           5791708.000 kB
 
 -- retval                   0
--- real                 2.621 sec
--- user                 2.520 sec
--- sys                  0.080 sec
--- maxrss          272364.000 kB
--- avgrss          216463.354 kB
--- maxvsize        276012.000 kB
--- avgvsize        228980.862 kB
+-- real                 3.301 sec
+-- user                 3.170 sec
+-- sys                  0.110 sec
+-- maxrss          272372.000 kB
+-- avgrss          204723.780 kB
+-- maxvsize        275996.000 kB
+-- avgvsize        219722.251 kB
 
 Running test src/c-hashtable/run-cwc (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215324.000 kB
+[benchmark] initial rss: 215316.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.650 (= 1.650 + 0.000)
-[benchmark] rss diff: 356.000 kB
+[str data] CPU time: 1.710 (= 1.700 + 0.010)
+[benchmark] rss diff: 372.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/c-hashtable/run-cwc -s -1
 
 -- totalmem      16237192.000 kB
--- available     13187040.000 kB
--- free           8521756.000 kB
+-- available     13310800.000 kB
+-- free           5791320.000 kB
 
 -- retval                   0
--- real                 2.514 sec
--- user                 2.420 sec
--- sys                  0.080 sec
--- maxrss          257616.000 kB
--- avgrss          205755.277 kB
--- maxvsize        264524.000 kB
--- avgvsize        221512.562 kB
+-- real                 2.595 sec
+-- user                 2.540 sec
+-- sys                  0.030 sec
+-- maxrss          257360.000 kB
+-- avgrss          205424.576 kB
+-- maxvsize        264500.000 kB
+-- avgvsize        221347.938 kB
 
 Running test src/eastl/run-ea (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
+[benchmark] initial rss: 215884.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.700 (= 1.680 + 0.020)
-[benchmark] rss diff: 436.000 kB
+[str data] CPU time: 1.960 (= 1.940 + 0.020)
+[benchmark] rss diff: 452.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/eastl/run-ea -s -1
 
 -- totalmem      16237192.000 kB
--- available     13186268.000 kB
--- free           8512324.000 kB
+-- available     13311236.000 kB
+-- free           5791756.000 kB
 
 -- retval                   0
--- real                 2.563 sec
--- user                 2.450 sec
--- sys                  0.100 sec
--- maxrss          263568.000 kB
--- avgrss          209760.724 kB
--- maxvsize        275252.000 kB
--- avgvsize        230256.094 kB
+-- real                 2.834 sec
+-- user                 2.750 sec
+-- sys                  0.060 sec
+-- maxrss          263576.000 kB
+-- avgrss          213609.629 kB
+-- maxvsize        275232.000 kB
+-- avgvsize        233638.814 kB
 
 Running test src/gcc-libiberty/run-gcc (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.720 (= 1.690 + 0.030)
-[benchmark] rss diff: 360.000 kB
+[str data] CPU time: 1.580 (= 1.560 + 0.020)
+[benchmark] rss diff: 376.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/gcc-libiberty/run-gcc -s -1
 
 -- totalmem      16237192.000 kB
--- available     13185964.000 kB
--- free           8520676.000 kB
+-- available     13310848.000 kB
+-- free           5791368.000 kB
 
 -- retval                   0
--- real                 2.585 sec
--- user                 2.480 sec
+-- real                 2.437 sec
+-- user                 2.320 sec
 -- sys                  0.090 sec
--- maxrss          240044.000 kB
--- avgrss          192622.531 kB
--- maxvsize        243608.000 kB
--- avgvsize        205098.641 kB
+-- maxrss          240052.000 kB
+-- avgrss          188908.299 kB
+-- maxvsize        243592.000 kB
+-- avgvsize        201977.510 kB
 
 Running test src/generic-c-hashmap/run-gc-hashmap (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 698396
-[str data] CPU time: 1.840 (= 1.740 + 0.100)
-[benchmark] rss diff: 380.000 kB
+[str data] CPU time: 2.090 (= 1.970 + 0.120)
+[benchmark] rss diff: 392.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/generic-c-hashmap/run-gc-hashmap -s -1
 
 -- totalmem      16237192.000 kB
--- available     13187176.000 kB
--- free           8521672.000 kB
+-- available     13332848.000 kB
+-- free           5813368.000 kB
 
 -- retval                   0
--- real                 2.686 sec
--- user                 2.490 sec
--- sys                  0.180 sec
--- maxrss          502408.000 kB
--- avgrss          361920.782 kB
--- maxvsize        505944.000 kB
--- avgvsize        377577.353 kB
+-- real                 2.943 sec
+-- user                 2.760 sec
+-- sys                  0.160 sec
+-- maxrss          502412.000 kB
+-- avgrss          372168.068 kB
+-- maxvsize        505928.000 kB
+-- avgvsize        386085.849 kB
 
 Running test src/ghthash/run-ght (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.850 (= 1.790 + 0.060)
-[benchmark] rss diff: 368.000 kB
+[str data] CPU time: 1.690 (= 1.630 + 0.060)
+[benchmark] rss diff: 384.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/ghthash/run-ght -s -1
 
 -- totalmem      16237192.000 kB
--- available     13187780.000 kB
--- free           8522460.000 kB
+-- available     13333560.000 kB
+-- free           5814084.000 kB
 
 -- retval                   0
--- real                 2.724 sec
--- user                 2.590 sec
+-- real                 2.553 sec
+-- user                 2.420 sec
 -- sys                  0.110 sec
--- maxrss          362480.000 kB
--- avgrss          273741.740 kB
--- maxvsize        366224.000 kB
--- avgvsize        286813.859 kB
+-- maxrss          362472.000 kB
+-- avgrss          270744.540 kB
+-- maxvsize        366208.000 kB
+-- avgvsize        284103.492 kB
 
 Running test src/google-c/run-dense (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 6.490 (= 6.470 + 0.020)
-[benchmark] rss diff: 380.000 kB
+[str data] CPU time: 7.350 (= 7.330 + 0.020)
+[benchmark] rss diff: 388.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/google-c/run-dense -s -1
 
 -- totalmem      16237192.000 kB
--- available     13215728.000 kB
--- free           8550400.000 kB
+-- available     13303000.000 kB
+-- free           5787348.000 kB
 
 -- retval                   0
--- real                 7.351 sec
--- user                 7.240 sec
+-- real                 8.353 sec
+-- user                 8.220 sec
 -- sys                  0.080 sec
 -- maxrss          244404.000 kB
--- avgrss          219745.291 kB
--- maxvsize        248012.000 kB
--- avgvsize        226424.164 kB
+-- avgrss          220478.813 kB
+-- maxvsize        247996.000 kB
+-- avgvsize        227057.221 kB
 
 Running test src/google-c/run-sparse (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 6.610 (= 6.610 + 0.000)
-[benchmark] rss diff: 384.000 kB
+[str data] CPU time: 7.420 (= 7.400 + 0.020)
+[benchmark] rss diff: 388.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/google-c/run-sparse -s -1
 
 -- totalmem      16237192.000 kB
--- available     13215196.000 kB
--- free           8549864.000 kB
+-- available     13313548.000 kB
+-- free           5797900.000 kB
 
 -- retval                   0
--- real                 7.473 sec
--- user                 7.360 sec
--- sys                  0.080 sec
--- maxrss          244408.000 kB
--- avgrss          219956.860 kB
--- maxvsize        248012.000 kB
--- avgvsize        226667.269 kB
+-- real                 8.548 sec
+-- user                 8.400 sec
+-- sys                  0.100 sec
+-- maxrss          244404.000 kB
+-- avgrss          218405.473 kB
+-- maxvsize        247996.000 kB
+-- avgvsize        225344.871 kB
 
 Running test src/hashit/run-chain (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.520 (= 1.480 + 0.040)
-[benchmark] rss diff: 360.000 kB
+[str data] CPU time: 1.510 (= 1.490 + 0.020)
+[benchmark] rss diff: 372.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/hashit/run-chain -s -1
 
 -- totalmem      16237192.000 kB
--- available     13215516.000 kB
--- free           8550184.000 kB
+-- available     13325732.000 kB
+-- free           5810084.000 kB
 
 -- retval                   0
--- real                 2.373 sec
--- user                 2.250 sec
--- sys                  0.110 sec
--- maxrss          300468.000 kB
--- avgrss          230833.498 kB
--- maxvsize        304016.000 kB
--- avgvsize        244356.136 kB
+-- real                 2.377 sec
+-- user                 2.280 sec
+-- sys                  0.080 sec
+-- maxrss          300460.000 kB
+-- avgrss          229472.542 kB
+-- maxvsize        304000.000 kB
+-- avgvsize        242882.458 kB
 
 Running test src/hashit/run-open (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.060 (= 1.020 + 0.040)
-[benchmark] rss diff: 232.000 kB
+[str data] CPU time: 1.290 (= 1.250 + 0.040)
+[benchmark] rss diff: 244.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/hashit/run-open -s -1
 
 -- totalmem      16237192.000 kB
--- available     13215752.000 kB
--- free           8550416.000 kB
+-- available     13325812.000 kB
+-- free           5810164.000 kB
 
 -- retval                   0
--- real                 1.914 sec
--- user                 1.800 sec
--- sys                  0.090 sec
+-- real                 2.155 sec
+-- user                 2.040 sec
+-- sys                  0.080 sec
 -- maxrss          346448.000 kB
--- avgrss          241313.735 kB
--- maxvsize        350016.000 kB
--- avgvsize        258985.143 kB
+-- avgrss          253941.175 kB
+-- maxvsize        350000.000 kB
+-- avgvsize        270941.687 kB
 
 Running test src/hashit/run-overflow (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215244.000 kB
 [str data] # elements: 636452
-[str data] CPU time: 1.150 (= 1.070 + 0.080)
-[benchmark] rss diff: 232.000 kB
+[str data] CPU time: 1.090 (= 1.010 + 0.080)
+[benchmark] rss diff: 248.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/hashit/run-overflow -s -1
 
 -- totalmem      16237192.000 kB
--- available     13215672.000 kB
--- free           8550372.000 kB
+-- available     13327796.000 kB
+-- free           5812148.000 kB
 
 -- retval                   0
--- real                 2.008 sec
--- user                 1.840 sec
--- sys                  0.140 sec
--- maxrss          415928.000 kB
--- avgrss          283562.263 kB
--- maxvsize        464708.000 kB
--- avgvsize        332196.202 kB
+-- real                 1.938 sec
+-- user                 1.760 sec
+-- sys                  0.160 sec
+-- maxrss          415916.000 kB
+-- avgrss          280478.146 kB
+-- maxvsize        464692.000 kB
+-- avgvsize        327931.000 kB
 
 Running test src/hhash/run-hhash (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [benchmark] rss diff: 0.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/hhash/run-hhash -s -1
 
 -- totalmem      16237192.000 kB
--- available     13215540.000 kB
--- free           8550240.000 kB
+-- available     13327936.000 kB
+-- free           5812288.000 kB
 
 -- retval                   0
 -- real                 0.852 sec
 -- user                 0.780 sec
--- sys                  0.050 sec
--- maxrss          215256.000 kB
--- avgrss          114142.506 kB
--- maxvsize        218932.000 kB
--- avgvsize        145011.084 kB
+-- sys                  0.060 sec
+-- maxrss          215248.000 kB
+-- avgrss          114726.554 kB
+-- maxvsize        218916.000 kB
+-- avgvsize        145076.386 kB
 
 Running test src/htable/run-htable (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 2.530 (= 2.420 + 0.110)
-[benchmark] rss diff: 372.000 kB
+[str data] CPU time: 2.440 (= 2.340 + 0.100)
+[benchmark] rss diff: 392.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/htable/run-htable -s -1
 
 -- totalmem      16237192.000 kB
--- available     13261312.000 kB
--- free           8595416.000 kB
+-- available     13329228.000 kB
+-- free           5813580.000 kB
 
 -- retval                   0
--- real                 3.428 sec
--- user                 3.210 sec
--- sys                  0.190 sec
--- maxrss          541256.000 kB
--- avgrss          338231.624 kB
--- maxvsize        544788.000 kB
--- avgvsize        431736.212 kB
+-- real                 3.320 sec
+-- user                 3.130 sec
+-- sys                  0.160 sec
+-- maxrss          541268.000 kB
+-- avgrss          335387.891 kB
+-- maxvsize        544772.000 kB
+-- avgvsize        428735.964 kB
 
 Running test src/khash/run-khash (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.190 (= 1.180 + 0.010)
-[benchmark] rss diff: 364.000 kB
+[str data] CPU time: 1.190 (= 1.170 + 0.020)
+[benchmark] rss diff: 376.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/khash/run-khash -s -1
 
 -- totalmem      16237192.000 kB
--- available     13260336.000 kB
--- free           8595020.000 kB
+-- available     13329640.000 kB
+-- free           5813952.000 kB
 
 -- retval                   0
--- real                 2.057 sec
--- user                 1.980 sec
--- sys                  0.060 sec
--- maxrss          240712.000 kB
--- avgrss          185374.392 kB
--- maxvsize        244396.000 kB
--- avgvsize        200260.725 kB
+-- real                 2.023 sec
+-- user                 1.930 sec
+-- sys                  0.080 sec
+-- maxrss          240716.000 kB
+-- avgrss          186228.120 kB
+-- maxvsize        244380.000 kB
+-- avgvsize        201122.180 kB
 
 Running test src/libevent/run-le (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215252.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.330 (= 1.270 + 0.060)
-[benchmark] rss diff: 368.000 kB
+[str data] CPU time: 1.320 (= 1.240 + 0.080)
+[benchmark] rss diff: 380.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/libevent/run-le -s -1
 
 -- totalmem      16237192.000 kB
--- available     13260228.000 kB
--- free           8594916.000 kB
+-- available     13329100.000 kB
+-- free           5813448.000 kB
 
 -- retval                   0
--- real                 2.212 sec
--- user                 2.080 sec
--- sys                  0.110 sec
--- maxrss          506428.000 kB
--- avgrss          341509.589 kB
--- maxvsize        510912.000 kB
--- avgvsize        361578.612 kB
+-- real                 2.168 sec
+-- user                 1.990 sec
+-- sys                  0.160 sec
+-- maxrss          506832.000 kB
+-- avgrss          345854.561 kB
+-- maxvsize        510896.000 kB
+-- avgvsize        366534.280 kB
+
+Running test src/lua-table/run-lua-table (-s) (-1). Please wait ...
+[benchmark] generating data... [UDB] done!
+[benchmark] initial rss: 215248.000 kB
+[str data] # elements: 625792
+[str data] CPU time: 107.730 (= 107.690 + 0.040)
+[benchmark] rss diff: 368.000 kB
+[benchmark] finished!
+-- CMD: src/run-it/run-it src/lua-table/run-lua-table -s -1
+
+-- totalmem      16237192.000 kB
+-- available     13328352.000 kB
+-- free           5812688.000 kB
+
+-- retval                   0
+-- real               108.746 sec
+-- user               108.450 sec
+-- sys                  0.100 sec
+-- maxrss          264740.000 kB
+-- avgrss          241411.797 kB
+-- maxvsize        268172.000 kB
+-- avgvsize        245014.772 kB
 
 Running test src/mct/run-mct-closed (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
+[benchmark] initial rss: 215884.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.410 (= 1.300 + 0.110)
-[benchmark] rss diff: 436.000 kB
+[str data] CPU time: 1.350 (= 1.240 + 0.110)
+[benchmark] rss diff: 452.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/mct/run-mct-closed -s -1
 
 -- totalmem      16237192.000 kB
--- available     13260724.000 kB
--- free           8595412.000 kB
+-- available     13328104.000 kB
+-- free           5812440.000 kB
 
 -- retval                   0
--- real                 2.256 sec
--- user                 2.060 sec
--- sys                  0.180 sec
--- maxrss          339128.000 kB
--- avgrss          220094.214 kB
--- maxvsize        350824.000 kB
--- avgvsize        242640.536 kB
+-- real                 2.198 sec
+-- user                 2.010 sec
+-- sys                  0.170 sec
+-- maxrss          339136.000 kB
+-- avgrss          220452.442 kB
+-- maxvsize        350804.000 kB
+-- avgvsize        243873.327 kB
 
 Running test src/mct/run-mct-linked (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
+[benchmark] initial rss: 215884.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 2.580 (= 2.440 + 0.140)
-[benchmark] rss diff: 440.000 kB
+[str data] CPU time: 2.640 (= 2.510 + 0.130)
+[benchmark] rss diff: 456.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/mct/run-mct-linked -s -1
 
 -- totalmem      16237192.000 kB
--- available     13259808.000 kB
--- free           8594496.000 kB
+-- available     13327856.000 kB
+-- free           5812192.000 kB
 
 -- retval                   0
--- real                 3.454 sec
--- user                 3.220 sec
--- sys                  0.210 sec
--- maxrss          363692.000 kB
--- avgrss          258660.749 kB
--- maxvsize        375400.000 kB
--- avgvsize        277681.965 kB
+-- real                 3.480 sec
+-- user                 3.260 sec
+-- sys                  0.200 sec
+-- maxrss          363700.000 kB
+-- avgrss          259840.974 kB
+-- maxvsize        375380.000 kB
+-- avgvsize        279103.780 kB
 
 Running test src/python/run-python (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.610 (= 1.570 + 0.040)
-[benchmark] rss diff: 29576.000 kB
+[str data] CPU time: 1.940 (= 1.920 + 0.020)
+[benchmark] rss diff: 29592.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/python/run-python -s -1
 
 -- totalmem      16237192.000 kB
--- available     13259624.000 kB
--- free           8594312.000 kB
+-- available     13327660.000 kB
+-- free           5811944.000 kB
 
 -- retval                   0
--- real                 2.513 sec
--- user                 2.370 sec
--- sys                  0.120 sec
--- maxrss          264484.000 kB
--- avgrss          207319.181 kB
--- maxvsize        268096.000 kB
--- avgvsize        220082.378 kB
+-- real                 2.786 sec
+-- user                 2.680 sec
+-- sys                  0.080 sec
+-- maxrss          264492.000 kB
+-- avgrss          214204.391 kB
+-- maxvsize        268080.000 kB
+-- avgvsize        225668.406 kB
 
 Running test src/rdestl/run-rde (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
+[benchmark] initial rss: 215884.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 0.810 (= 0.780 + 0.030)
-[benchmark] rss diff: 424.000 kB
+[str data] CPU time: 0.780 (= 0.760 + 0.020)
+[benchmark] rss diff: 436.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/rdestl/run-rde -s -1
 
 -- totalmem      16237192.000 kB
--- available     13259320.000 kB
--- free           8594008.000 kB
+-- available     13327720.000 kB
+-- free           5812000.000 kB
 
 -- retval                   0
--- real                 1.673 sec
--- user                 1.570 sec
--- sys                  0.090 sec
--- maxrss          289992.000 kB
--- avgrss          184807.515 kB
--- maxvsize        301672.000 kB
--- avgvsize        210645.503 kB
+-- real                 1.623 sec
+-- user                 1.520 sec
+-- sys                  0.080 sec
+-- maxrss          289996.000 kB
+-- avgrss          185470.450 kB
+-- maxvsize        301652.000 kB
+-- avgvsize        211081.300 kB
+
+Running test src/redis/run-redis (-s) (-1). Please wait ...
+[benchmark] generating data... [UDB] done!
+[benchmark] initial rss: 215248.000 kB
+[str data] # elements: 625792
+[str data] CPU time: 1.950 (= 1.910 + 0.040)
+[benchmark] rss diff: 372.000 kB
+[benchmark] finished!
+-- CMD: src/run-it/run-it src/redis/run-redis -s -1
+
+-- totalmem      16237192.000 kB
+-- available     13328236.000 kB
+-- free           5812568.000 kB
+
+-- retval                   0
+-- real                 2.801 sec
+-- user                 2.700 sec
+-- sys                  0.080 sec
+-- maxrss          253212.000 kB
+-- avgrss          208037.372 kB
+-- maxvsize        256836.000 kB
+-- avgvsize        219733.054 kB
 
 Running test src/ruby-st/run-ruby-st (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 3.470 (= 3.450 + 0.020)
-[benchmark] rss diff: 368.000 kB
+[str data] CPU time: 3.010 (= 3.010 + 0.000)
+[benchmark] rss diff: 380.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/ruby-st/run-ruby-st -s -1
 
 -- totalmem      16237192.000 kB
--- available     13260616.000 kB
--- free           8594132.000 kB
+-- available     13328424.000 kB
+-- free           5812816.000 kB
 
 -- retval                   0
--- real                 4.348 sec
--- user                 4.240 sec
--- sys                  0.090 sec
--- maxrss          255496.000 kB
--- avgrss          226057.491 kB
--- maxvsize        259064.000 kB
--- avgvsize        234739.593 kB
+-- real                 3.863 sec
+-- user                 3.770 sec
+-- sys                  0.070 sec
+-- maxrss          255500.000 kB
+-- avgrss          222845.326 kB
+-- maxvsize        259048.000 kB
+-- avgvsize        232140.073 kB
 
 Running test src/sglib/run-sglib (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 3.790 (= 3.700 + 0.090)
-[benchmark] rss diff: 240.000 kB
+[str data] CPU time: 3.320 (= 3.240 + 0.080)
+[benchmark] rss diff: 256.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/sglib/run-sglib -s -1
 
 -- totalmem      16237192.000 kB
--- available     13247812.000 kB
--- free           8568416.000 kB
+-- available     13329616.000 kB
+-- free           5813948.000 kB
 
 -- retval                   0
--- real                 5.138 sec
--- user                 4.900 sec
--- sys                  0.160 sec
+-- real                 4.169 sec
+-- user                 4.030 sec
+-- sys                  0.110 sec
 -- maxrss          450572.000 kB
--- avgrss          365803.850 kB
--- maxvsize        454104.000 kB
--- avgvsize        378450.162 kB
+-- avgrss          381586.271 kB
+-- maxvsize        454088.000 kB
+-- avgvsize        393189.072 kB
 
 Running test src/stb/run-stb (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 3.950 (= 3.910 + 0.040)
-[benchmark] rss diff: 372.000 kB
+[str data] CPU time: 3.450 (= 3.430 + 0.020)
+[benchmark] rss diff: 388.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/stb/run-stb -s -1
 
 -- totalmem      16237192.000 kB
--- available     13241636.000 kB
--- free           8569388.000 kB
+-- available     13329244.000 kB
+-- free           5813576.000 kB
 
 -- retval                   0
--- real                 5.061 sec
--- user                 4.900 sec
--- sys                  0.130 sec
--- maxrss          282104.000 kB
--- avgrss          241925.384 kB
--- maxvsize        285916.000 kB
--- avgvsize        250943.801 kB
+-- real                 4.309 sec
+-- user                 4.220 sec
+-- sys                  0.060 sec
+-- maxrss          282112.000 kB
+-- avgrss          243029.439 kB
+-- maxvsize        285900.000 kB
+-- avgvsize        252102.084 kB
 
 Running test src/st/run-st (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215260.000 kB
+[benchmark] initial rss: 215252.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 4.120 (= 4.100 + 0.020)
-[benchmark] rss diff: 352.000 kB
+[str data] CPU time: 2.950 (= 2.940 + 0.010)
+[benchmark] rss diff: 364.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/st/run-st -s -1
 
 -- totalmem      16237192.000 kB
--- available     13196332.000 kB
--- free           8519144.000 kB
+-- available     13328996.000 kB
+-- free           5813328.000 kB
 
 -- retval                   0
--- real                 5.229 sec
--- user                 5.000 sec
--- sys                  0.100 sec
--- maxrss          245776.000 kB
--- avgrss          220269.299 kB
--- maxvsize        249288.000 kB
--- avgvsize        228474.630 kB
+-- real                 3.798 sec
+-- user                 3.710 sec
+-- sys                  0.060 sec
+-- maxrss          245780.000 kB
+-- avgrss          215235.215 kB
+-- maxvsize        249272.000 kB
+-- avgvsize        224535.003 kB
 
 Running test src/sys-apr/run-apr-lib (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215412.000 kB
+[benchmark] initial rss: 215400.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.760 (= 1.740 + 0.020)
-[benchmark] rss diff: 316.000 kB
+[str data] CPU time: 1.450 (= 1.430 + 0.020)
+[benchmark] rss diff: 324.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/sys-apr/run-apr-lib -s -1
 
 -- totalmem      16237192.000 kB
--- available     13226628.000 kB
--- free           8554364.000 kB
+-- available     13328628.000 kB
+-- free           5812956.000 kB
 
 -- retval                   0
--- real                 3.153 sec
--- user                 3.010 sec
--- sys                  0.100 sec
--- maxrss          256596.000 kB
--- avgrss          185089.016 kB
--- maxvsize        272908.000 kB
--- avgvsize        215198.199 kB
+-- real                 2.303 sec
+-- user                 2.200 sec
+-- sys                  0.080 sec
+-- maxrss          256584.000 kB
+-- avgrss          202472.895 kB
+-- maxvsize        272896.000 kB
+-- avgvsize        228389.158 kB
 
 Running test src/sys-boost/run-unordered-map (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
+[benchmark] initial rss: 215884.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 2.530 (= 2.500 + 0.030)
-[benchmark] rss diff: 448.000 kB
+[str data] CPU time: 2.070 (= 2.040 + 0.030)
+[benchmark] rss diff: 464.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/sys-boost/run-unordered-map -s -1
 
 -- totalmem      16237192.000 kB
--- available     13221960.000 kB
--- free           8538016.000 kB
+-- available     13328380.000 kB
+-- free           5812708.000 kB
 
 -- retval                   0
--- real                 3.422 sec
--- user                 3.290 sec
--- sys                  0.120 sec
--- maxrss          263504.000 kB
--- avgrss          222474.871 kB
--- maxvsize        275164.000 kB
--- avgvsize        240815.318 kB
+-- real                 2.911 sec
+-- user                 2.800 sec
+-- sys                  0.080 sec
+-- maxrss          263512.000 kB
+-- avgrss          217315.236 kB
+-- maxvsize        275144.000 kB
+-- avgvsize        236696.167 kB
 
 Running test src/sys-gcc-stl/run-map (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
+[benchmark] initial rss: 215884.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 8.890 (= 8.850 + 0.040)
-[benchmark] rss diff: 444.000 kB
+[str data] CPU time: 8.000 (= 7.990 + 0.010)
+[benchmark] rss diff: 460.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/sys-gcc-stl/run-map -s -1
 
 -- totalmem      16237192.000 kB
--- available     13219548.000 kB
--- free           8552052.000 kB
+-- available     13329260.000 kB
+-- free           5813588.000 kB
 
 -- retval                   0
--- real                 9.838 sec
--- user                 9.700 sec
--- sys                  0.100 sec
--- maxrss          264996.000 kB
--- avgrss          246323.057 kB
--- maxvsize        276804.000 kB
--- avgvsize        260585.282 kB
+-- real                 8.859 sec
+-- user                 8.760 sec
+-- sys                  0.070 sec
+-- maxrss          264988.000 kB
+-- avgrss          246530.209 kB
+-- maxvsize        276784.000 kB
+-- avgvsize        260774.181 kB
 
 Running test src/sys-gcc-stl/run-unordered-map (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
+[benchmark] initial rss: 215884.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 2.380 (= 2.370 + 0.010)
-[benchmark] rss diff: 448.000 kB
+[str data] CPU time: 2.590 (= 2.570 + 0.020)
+[benchmark] rss diff: 464.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/sys-gcc-stl/run-unordered-map -s -1
 
 -- totalmem      16237192.000 kB
--- available     13216644.000 kB
--- free           8552812.000 kB
+-- available     13328720.000 kB
+-- free           5812996.000 kB
 
 -- retval                   0
--- real                 3.270 sec
--- user                 3.170 sec
--- sys                  0.080 sec
--- maxrss          263580.000 kB
--- avgrss          219858.978 kB
--- maxvsize        275248.000 kB
--- avgvsize        238367.040 kB
+-- real                 3.455 sec
+-- user                 3.350 sec
+-- sys                  0.090 sec
+-- maxrss          263588.000 kB
+-- avgrss          222484.711 kB
+-- maxvsize        275228.000 kB
+-- avgvsize        240623.335 kB
 
 Running test src/sys-glib/run-glib (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215484.000 kB
+[benchmark] initial rss: 215740.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.730 (= 1.710 + 0.020)
-[benchmark] rss diff: 600.000 kB
+[str data] CPU time: 1.460 (= 1.460 + 0.000)
+[benchmark] rss diff: 348.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/sys-glib/run-glib -s -1
 
 -- totalmem      16237192.000 kB
--- available     13198412.000 kB
--- free           8532204.000 kB
+-- available     13328420.000 kB
+-- free           5812748.000 kB
 
 -- retval                   0
--- real                 2.687 sec
--- user                 2.580 sec
--- sys                  0.090 sec
--- maxrss          228368.000 kB
--- avgrss          190368.632 kB
--- maxvsize        248520.000 kB
--- avgvsize        213041.504 kB
+-- real                 2.315 sec
+-- user                 2.180 sec
+-- sys                  0.100 sec
+-- maxrss          234508.000 kB
+-- avgrss          188538.596 kB
+-- maxvsize        248504.000 kB
+-- avgvsize        212184.632 kB
 
 Running test src/sys-judy/run-judy (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215292.000 kB
+[benchmark] initial rss: 215276.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 4.730 (= 4.710 + 0.020)
-[benchmark] rss diff: 456.000 kB
+[str data] CPU time: 3.150 (= 3.130 + 0.020)
+[benchmark] rss diff: 476.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/sys-judy/run-judy -s -1
 
 -- totalmem      16237192.000 kB
--- available     13188588.000 kB
--- free           8511336.000 kB
+-- available     13329012.000 kB
+-- free           5813340.000 kB
 
 -- retval                   0
--- real                 6.361 sec
--- user                 6.120 sec
--- sys                  0.140 sec
--- maxrss          259380.000 kB
--- avgrss          216058.812 kB
--- maxvsize        265140.000 kB
--- avgvsize        228364.652 kB
+-- real                 4.002 sec
+-- user                 3.930 sec
+-- sys                  0.050 sec
+-- maxrss          259364.000 kB
+-- avgrss          221379.668 kB
+-- maxvsize        265120.000 kB
+-- avgvsize        232937.229 kB
 
 Running test src/sys-LuaHashMap/run-luahashmap (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215380.000 kB
+[benchmark] initial rss: 215368.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 7.850 (= 7.760 + 0.090)
-[benchmark] rss diff: 472.000 kB
+[str data] CPU time: 7.150 (= 7.080 + 0.070)
+[benchmark] rss diff: 484.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/sys-LuaHashMap/run-luahashmap -s -1
 
 -- totalmem      16237192.000 kB
--- available     13186236.000 kB
--- free           8508424.000 kB
+-- available     13329076.000 kB
+-- free           5813392.000 kB
 
 -- retval                   0
--- real                 8.812 sec
--- user                 8.530 sec
--- sys                  0.180 sec
+-- real                 8.020 sec
+-- user                 7.860 sec
+-- sys                  0.130 sec
 -- maxrss          354948.000 kB
--- avgrss          280900.602 kB
--- maxvsize        365764.000 kB
--- avgvsize        294637.952 kB
+-- avgrss          281329.870 kB
+-- maxvsize        365736.000 kB
+-- avgvsize        295125.624 kB
 
 Running test src/sys-perl/run-perl (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215612.000 kB
+[benchmark] initial rss: 215608.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 3.800 (= 3.770 + 0.030)
-[benchmark] rss diff: 69480.000 kB
+[str data] CPU time: 2.900 (= 2.890 + 0.010)
+[benchmark] rss diff: 69496.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/sys-perl/run-perl -s -1
 
 -- totalmem      16237192.000 kB
--- available     13186000.000 kB
--- free           8509508.000 kB
+-- available     13329324.000 kB
+-- free           5813640.000 kB
 
 -- retval                   0
--- real                 4.758 sec
--- user                 4.600 sec
--- sys                  0.110 sec
--- maxrss          301352.000 kB
--- avgrss          258623.421 kB
--- maxvsize        319352.000 kB
--- avgvsize        281851.489 kB
+-- real                 3.743 sec
+-- user                 3.630 sec
+-- sys                  0.090 sec
+-- maxrss          301364.000 kB
+-- avgrss          252295.269 kB
+-- maxvsize        319336.000 kB
+-- avgvsize        275830.613 kB
 
 Running test src/sys-python/run-python (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215976.000 kB
+[benchmark] initial rss: 215968.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 2.430 (= 2.210 + 0.220)
-[benchmark] rss diff: 569356.000 kB
+[str data] CPU time: 2.180 (= 2.000 + 0.180)
+[benchmark] rss diff: 569360.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/sys-python/run-python -s -1
 
 -- totalmem      16237192.000 kB
--- available     13186184.000 kB
--- free           8509628.000 kB
+-- available     13328824.000 kB
+-- free           5813144.000 kB
 
 -- retval                   0
--- real                 3.336 sec
--- user                 3.010 sec
--- sys                  0.310 sec
--- maxrss          834324.000 kB
--- avgrss          457291.698 kB
--- maxvsize        854992.000 kB
--- avgvsize        484563.722 kB
+-- real                 3.059 sec
+-- user                 2.740 sec
+-- sys                  0.290 sec
+-- maxrss          834320.000 kB
+-- avgrss          452083.182 kB
+-- maxvsize        854968.000 kB
+-- avgvsize        479499.604 kB
 
 Running test src/sys-Qt/run-hash (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 217672.000 kB
+[benchmark] initial rss: 217664.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 2.040 (= 2.030 + 0.010)
-[benchmark] rss diff: 384.000 kB
+[str data] CPU time: 1.720 (= 1.710 + 0.010)
+[benchmark] rss diff: 400.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/sys-Qt/run-hash -s -1
 
 -- totalmem      16237192.000 kB
--- available     13184884.000 kB
--- free           8518100.000 kB
+-- available     13328024.000 kB
+-- free           5812340.000 kB
 
 -- retval                   0
--- real                 2.989 sec
--- user                 2.900 sec
+-- real                 2.566 sec
+-- user                 2.480 sec
 -- sys                  0.070 sec
--- maxrss          255448.000 kB
--- avgrss          208288.770 kB
--- maxvsize        322392.000 kB
--- avgvsize        284256.689 kB
+-- maxrss          255456.000 kB
+-- avgrss          208617.276 kB
+-- maxvsize        322372.000 kB
+-- avgvsize        284305.150 kB
 
 Running test src/sys-Qt/run-map (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 217680.000 kB
+[benchmark] initial rss: 217672.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 10.780 (= 10.750 + 0.030)
-[benchmark] rss diff: 384.000 kB
+[str data] CPU time: 8.880 (= 8.860 + 0.020)
+[benchmark] rss diff: 396.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/sys-Qt/run-map -s -1
 
 -- totalmem      16237192.000 kB
--- available     13139512.000 kB
--- free           8473256.000 kB
+-- available     13328640.000 kB
+-- free           5812956.000 kB
 
 -- retval                   0
--- real                11.773 sec
--- user                11.610 sec
--- sys                  0.100 sec
--- maxrss          266784.000 kB
--- avgrss          250908.051 kB
--- maxvsize        333740.000 kB
--- avgvsize        320030.429 kB
+-- real                 9.734 sec
+-- user                 9.630 sec
+-- sys                  0.070 sec
+-- maxrss          266776.000 kB
+-- avgrss          249728.111 kB
+-- maxvsize        333720.000 kB
+-- avgvsize        319056.008 kB
 
 Running test src/sys-sparsehash/run-dense (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
+[benchmark] initial rss: 215884.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.660 (= 1.560 + 0.100)
-[benchmark] rss diff: 460.000 kB
+[str data] CPU time: 1.530 (= 1.430 + 0.100)
+[benchmark] rss diff: 476.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/sys-sparsehash/run-dense -s -1
 
 -- totalmem      16237192.000 kB
--- available     13163632.000 kB
--- free           8497372.000 kB
+-- available     13328768.000 kB
+-- free           5813080.000 kB
 
 -- retval                   0
--- real                 2.862 sec
--- user                 2.660 sec
--- sys                  0.180 sec
--- maxrss          380112.000 kB
--- avgrss          222688.226 kB
--- maxvsize        391828.000 kB
--- avgvsize        246793.668 kB
+-- real                 2.375 sec
+-- user                 2.180 sec
+-- sys                  0.170 sec
+-- maxrss          380120.000 kB
+-- avgrss          234158.911 kB
+-- maxvsize        391808.000 kB
+-- avgvsize        257003.626 kB
 
 Running test src/sys-sparsehash/run-sparse (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215892.000 kB
+[benchmark] initial rss: 215888.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 4.970 (= 4.950 + 0.020)
-[benchmark] rss diff: 464.000 kB
+[str data] CPU time: 4.410 (= 4.400 + 0.010)
+[benchmark] rss diff: 480.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/sys-sparsehash/run-sparse -s -1
 
 -- totalmem      16237192.000 kB
--- available     13167792.000 kB
--- free           8501488.000 kB
+-- available     13328520.000 kB
+-- free           5812832.000 kB
 
 -- retval                   0
--- real                 5.973 sec
--- user                 5.860 sec
+-- real                 5.263 sec
+-- user                 5.160 sec
 -- sys                  0.080 sec
--- maxrss          251352.000 kB
--- avgrss          224232.559 kB
--- maxvsize        263200.000 kB
--- avgvsize        240275.892 kB
+-- maxrss          251364.000 kB
+-- avgrss          225375.832 kB
+-- maxvsize        263176.000 kB
+-- avgvsize        241423.260 kB
 
 Running test src/sys-tcl/run-tcl (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215628.000 kB
+[benchmark] initial rss: 215624.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.890 (= 1.880 + 0.010)
-[benchmark] rss diff: 39488.000 kB
+[str data] CPU time: 1.940 (= 1.930 + 0.010)
+[benchmark] rss diff: 39496.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/sys-tcl/run-tcl -s -1
 
 -- totalmem      16237192.000 kB
--- available     13160484.000 kB
--- free           8494184.000 kB
+-- available     13328532.000 kB
+-- free           5812832.000 kB
 
 -- retval                   0
--- real                 3.088 sec
--- user                 2.960 sec
--- sys                  0.080 sec
--- maxrss          256968.000 kB
--- avgrss          198553.961 kB
--- maxvsize        273508.000 kB
--- avgvsize        225962.105 kB
+-- real                 2.801 sec
+-- user                 2.720 sec
+-- sys                  0.060 sec
+-- maxrss          256972.000 kB
+-- avgrss          212260.953 kB
+-- maxvsize        273488.000 kB
+-- avgvsize        236709.415 kB
 
 Running test src/tommyds/run-dynamic (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625704
-[str data] CPU time: 2.050 (= 1.880 + 0.170)
-[benchmark] rss diff: 356.000 kB
+[str data] CPU time: 2.330 (= 2.160 + 0.170)
+[benchmark] rss diff: 368.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/tommyds/run-dynamic -s -1
 
 -- totalmem      16237192.000 kB
--- available     13170948.000 kB
--- free           8504644.000 kB
+-- available     13327216.000 kB
+-- free           5805556.000 kB
 
 -- retval                   0
--- real                 2.954 sec
--- user                 2.640 sec
--- sys                  0.300 sec
--- maxrss          903708.000 kB
--- avgrss          596609.502 kB
--- maxvsize        907676.000 kB
--- avgvsize        614552.751 kB
+-- real                 3.205 sec
+-- user                 2.910 sec
+-- sys                  0.280 sec
+-- maxrss          902920.000 kB
+-- avgrss          620798.415 kB
+-- maxvsize        907660.000 kB
+-- avgvsize        636640.528 kB
 
 Running test src/tommyds/run-fixed (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625704
-[str data] CPU time: 2.380 (= 2.220 + 0.160)
-[benchmark] rss diff: 356.000 kB
+[str data] CPU time: 1.970 (= 1.790 + 0.180)
+[benchmark] rss diff: 368.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/tommyds/run-fixed -s -1
 
 -- totalmem      16237192.000 kB
--- available     13258008.000 kB
--- free           8591704.000 kB
+-- available     13327032.000 kB
+-- free           5805556.000 kB
 
 -- retval                   0
--- real                 3.301 sec
--- user                 3.010 sec
--- sys                  0.260 sec
--- maxrss          944988.000 kB
--- avgrss          640777.480 kB
--- maxvsize        948560.000 kB
--- avgvsize        659313.052 kB
+-- real                 2.836 sec
+-- user                 2.540 sec
+-- sys                  0.280 sec
+-- maxrss          944984.000 kB
+-- avgrss          614968.014 kB
+-- maxvsize        948544.000 kB
+-- avgvsize        632141.281 kB
 
 Running test src/tommyds/run-linear (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215248.000 kB
 [str data] # elements: 625704
-[str data] CPU time: 2.620 (= 2.430 + 0.190)
-[benchmark] rss diff: 356.000 kB
+[str data] CPU time: 2.470 (= 2.330 + 0.140)
+[benchmark] rss diff: 368.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/tommyds/run-linear -s -1
 
 -- totalmem      16237192.000 kB
--- available     13231376.000 kB
--- free           8564776.000 kB
+-- available     13326656.000 kB
+-- free           5805180.000 kB
 
 -- retval                   0
--- real                 3.776 sec
--- user                 3.430 sec
--- sys                  0.320 sec
--- maxrss          889248.000 kB
--- avgrss          594651.061 kB
--- maxvsize        899444.000 kB
--- avgvsize        614811.723 kB
+-- real                 3.343 sec
+-- user                 3.100 sec
+-- sys                  0.220 sec
+-- maxrss          889240.000 kB
+-- avgrss          634053.181 kB
+-- maxvsize        899428.000 kB
+-- avgvsize        652925.566 kB
 
 Running test src/ulib/run-ulib-open (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215244.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.210 (= 1.210 + 0.000)
-[benchmark] rss diff: 368.000 kB
+[str data] CPU time: 1.190 (= 1.170 + 0.020)
+[benchmark] rss diff: 384.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/ulib/run-ulib-open -s -1
 
 -- totalmem      16237192.000 kB
--- available     13212648.000 kB
--- free           8543648.000 kB
+-- available     13327388.000 kB
+-- free           5805912.000 kB
 
 -- retval                   0
--- real                 2.589 sec
--- user                 2.480 sec
--- sys                  0.080 sec
--- maxrss          240836.000 kB
--- avgrss          171281.906 kB
--- maxvsize        244392.000 kB
--- avgvsize        189453.359 kB
+-- real                 2.021 sec
+-- user                 1.940 sec
+-- sys                  0.070 sec
+-- maxrss          240720.000 kB
+-- avgrss          185948.320 kB
+-- maxvsize        244376.000 kB
+-- avgvsize        200754.080 kB
 
 Running test src/uthash/run-uthash (-s) (-1). Please wait ...
 [benchmark] generating data... [UDB] done!
-[benchmark] initial rss: 215256.000 kB
+[benchmark] initial rss: 215244.000 kB
 [str data] # elements: 625792
-[str data] CPU time: 1.800 (= 1.660 + 0.140)
-[benchmark] rss diff: 376.000 kB
+[str data] CPU time: 1.830 (= 1.700 + 0.130)
+[benchmark] rss diff: 396.000 kB
 [benchmark] finished!
 -- CMD: src/run-it/run-it src/uthash/run-uthash -s -1
 
 -- totalmem      16237192.000 kB
--- available     13212608.000 kB
--- free           8545912.000 kB
+-- available     13326588.000 kB
+-- free           5804960.000 kB
 
 -- retval                   0
--- real                 2.710 sec
--- user                 2.460 sec
--- sys                  0.220 sec
--- maxrss          618280.000 kB
--- avgrss          438447.075 kB
--- maxvsize        621956.000 kB
--- avgvsize        463696.388 kB
-
-Running test src/amtl/run-amtl (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.560 (= 0.520 + 0.040)
-[benchmark] rss diff: 416.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/amtl/run-amtl -i -2
-
--- totalmem      16237192.000 kB
--- available     13212548.000 kB
--- free           8545852.000 kB
-
--- retval                   0
--- real                 1.300 sec
--- user                 1.180 sec
--- sys                  0.110 sec
--- maxrss          363668.000 kB
--- avgrss          187982.094 kB
--- maxvsize        375396.000 kB
--- avgvsize        216332.562 kB
-
-Running test src/apr/run-apr (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 5.530 (= 5.370 + 0.160)
-[benchmark] rss diff: 364.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/apr/run-apr -i -2
-
--- totalmem      16237192.000 kB
--- available     13254748.000 kB
--- free           8588048.000 kB
-
--- retval                   0
--- real                 6.369 sec
--- user                 6.050 sec
--- sys                  0.260 sec
--- maxrss          515384.000 kB
--- avgrss          397152.818 kB
--- maxvsize        518908.000 kB
--- avgvsize        407467.195 kB
-
-Running test src/c-algoritms/run-c-alg (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.680 (= 0.560 + 0.120)
-[benchmark] rss diff: 352.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/c-algoritms/run-c-alg -i -2
-
--- totalmem      16237192.000 kB
--- available     13254812.000 kB
--- free           8588112.000 kB
-
--- retval                   0
--- real                 1.749 sec
--- user                 1.520 sec
+-- real                 2.696 sec
+-- user                 2.480 sec
 -- sys                  0.200 sec
--- maxrss          412096.000 kB
--- avgrss          208272.558 kB
--- maxvsize        644968.000 kB
--- avgvsize        267121.512 kB
-
-Running test src/ccan/run-ccan-htable (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.230 (= 0.200 + 0.030)
-[benchmark] rss diff: 348.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/ccan/run-ccan-htable -i -2
-
--- totalmem      16237192.000 kB
--- available     13244100.000 kB
--- free           8563992.000 kB
-
--- retval                   0
--- real                 1.204 sec
--- user                 1.060 sec
--- sys                  0.120 sec
--- maxrss          264720.000 kB
--- avgrss          143677.322 kB
--- maxvsize        317340.000 kB
--- avgvsize        173076.339 kB
-
-Running test src/CDS/run-CDS (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.660 (= 0.560 + 0.100)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/CDS/run-CDS -i -2
-
--- totalmem      16237192.000 kB
--- available     13250612.000 kB
--- free           8583908.000 kB
-
--- retval                   0
--- real                 1.829 sec
--- user                 1.590 sec
--- sys                  0.190 sec
--- maxrss          510228.000 kB
--- avgrss          210585.348 kB
--- maxvsize        513844.000 kB
--- avgvsize        233243.888 kB
-
-Running test src/cfu/run-cfu (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 5.150 (= 5.010 + 0.140)
-[benchmark] rss diff: 372.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/cfu/run-cfu -i -2
-
--- totalmem      16237192.000 kB
--- available     13614156.000 kB
--- free           8948540.000 kB
-
--- retval                   0
--- real                 6.250 sec
--- user                 5.980 sec
--- sys                  0.240 sec
--- maxrss          671464.000 kB
--- avgrss          467955.768 kB
--- maxvsize        675104.000 kB
--- avgvsize        480685.383 kB
-
-Running test src/c-hashtable/run-cwc (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215324.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 4.690 (= 4.490 + 0.200)
-[benchmark] rss diff: 352.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/c-hashtable/run-cwc -i -2
-
--- totalmem      16237192.000 kB
--- available     13604420.000 kB
--- free           8939976.000 kB
-
--- retval                   0
--- real                 5.550 sec
--- user                 5.200 sec
--- sys                  0.280 sec
--- maxrss          554596.000 kB
--- avgrss          387035.343 kB
--- maxvsize        561188.000 kB
--- avgvsize        404448.445 kB
-
-Running test src/eastl/run-ea (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.770 (= 0.660 + 0.110)
-[benchmark] rss diff: 420.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/eastl/run-ea -i -2
-
--- totalmem      16237192.000 kB
--- available     13582736.000 kB
--- free           8916532.000 kB
-
--- retval                   0
--- real                 1.636 sec
--- user                 1.400 sec
--- sys                  0.210 sec
--- maxrss          431776.000 kB
--- avgrss          230460.275 kB
--- maxvsize        467180.000 kB
--- avgvsize        265326.700 kB
-
-Running test src/gcc-libiberty/run-gcc (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 2.180 (= 2.090 + 0.090)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/gcc-libiberty/run-gcc -i -2
-
--- totalmem      16237192.000 kB
--- available     13595036.000 kB
--- free           8921824.000 kB
-
--- retval                   0
--- real                 3.894 sec
--- user                 3.620 sec
--- sys                  0.220 sec
--- maxrss          313852.000 kB
--- avgrss          198505.253 kB
--- maxvsize        317336.000 kB
--- avgvsize        215241.462 kB
-
-Running test src/generic-c-hashmap/run-gc-hashmap (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 5.160 (= 4.850 + 0.310)
-[benchmark] rss diff: 364.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/generic-c-hashmap/run-gc-hashmap -i -2
-
--- totalmem      16237192.000 kB
--- available     13569848.000 kB
--- free           8887660.000 kB
-
--- retval                   0
--- real                 6.170 sec
--- user                 5.710 sec
--- sys                  0.420 sec
--- maxrss          878100.000 kB
--- avgrss          577449.281 kB
--- maxvsize        881652.000 kB
--- avgvsize        588591.235 kB
-
-Running test src/ghthash/run-ght (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 3.750 (= 3.570 + 0.180)
-[benchmark] rss diff: 368.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/ghthash/run-ght -i -2
-
--- totalmem      16237192.000 kB
--- available     13568460.000 kB
--- free           8904736.000 kB
-
--- retval                   0
--- real                 4.937 sec
--- user                 4.560 sec
--- sys                  0.280 sec
--- maxrss          704356.000 kB
--- avgrss          484832.033 kB
--- maxvsize        707840.000 kB
--- avgvsize        497110.983 kB
-
-Running test src/google-c/run-dense (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 4.440 (= 4.390 + 0.050)
-[benchmark] rss diff: 376.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/google-c/run-dense -i -2
-
--- totalmem      16237192.000 kB
--- available     13550448.000 kB
--- free           8885444.000 kB
-
--- retval                   0
--- real                 5.744 sec
--- user                 5.510 sec
--- sys                  0.140 sec
--- maxrss          365048.000 kB
--- avgrss          250137.678 kB
--- maxvsize        368624.000 kB
--- avgvsize        259743.929 kB
-
-Running test src/google-c/run-sparse (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 4.200 (= 4.140 + 0.060)
-[benchmark] rss diff: 376.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/google-c/run-sparse -i -2
-
--- totalmem      16237192.000 kB
--- available     13548792.000 kB
--- free           8885036.000 kB
-
--- retval                   0
--- real                 4.950 sec
--- user                 4.800 sec
--- sys                  0.120 sec
--- maxrss          365048.000 kB
--- avgrss          261113.081 kB
--- maxvsize        368624.000 kB
--- avgvsize        268942.236 kB
-
-Running test src/hashit/run-chain (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 3.340 (= 3.240 + 0.100)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/hashit/run-chain -i -2
-
--- totalmem      16237192.000 kB
--- available     13549524.000 kB
--- free           8878768.000 kB
-
--- retval                   0
--- real                 4.156 sec
--- user                 3.950 sec
--- sys                  0.160 sec
--- maxrss          437216.000 kB
--- avgrss          335275.620 kB
--- maxvsize        440768.000 kB
--- avgvsize        344259.075 kB
-
-Running test src/hashit/run-open (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 1.160 (= 1.100 + 0.060)
-[benchmark] rss diff: 228.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/hashit/run-open -i -2
-
--- totalmem      16237192.000 kB
--- available     13549080.000 kB
--- free           8876996.000 kB
-
--- retval                   0
--- real                 2.388 sec
--- user                 2.180 sec
--- sys                  0.140 sec
--- maxrss          346448.000 kB
--- avgrss          228204.603 kB
--- maxvsize        350016.000 kB
--- avgvsize        247905.500 kB
-
-Running test src/hashit/run-overflow (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.950 (= 0.860 + 0.090)
-[benchmark] rss diff: 228.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/hashit/run-overflow -i -2
-
--- totalmem      16237192.000 kB
--- available     13548376.000 kB
--- free           8876736.000 kB
-
--- retval                   0
--- real                 1.942 sec
--- user                 1.730 sec
--- sys                  0.180 sec
--- maxrss          440700.000 kB
--- avgrss          257759.916 kB
--- maxvsize        464708.000 kB
--- avgvsize        300605.990 kB
-
-Running test src/hhash/run-hhash (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 4999999
-[int data] CPU time: 0.180 (= 0.160 + 0.020)
-[benchmark] rss diff: 220.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/hhash/run-hhash -i -2
-
--- totalmem      16237192.000 kB
--- available     13548752.000 kB
--- free           8875296.000 kB
-
--- retval                   0
--- real                 1.150 sec
--- user                 0.990 sec
--- sys                  0.120 sec
--- maxrss          292420.000 kB
--- avgrss          136380.937 kB
--- maxvsize        297060.000 kB
--- avgvsize        168103.279 kB
-
-Running test src/htable/run-htable (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 5.180 (= 4.900 + 0.280)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/htable/run-htable -i -2
-
--- totalmem      16237192.000 kB
--- available     13497088.000 kB
--- free           8809484.000 kB
-
--- retval                   0
--- real                 6.224 sec
--- user                 5.720 sec
--- sys                  0.370 sec
--- maxrss          907136.000 kB
--- avgrss          679012.545 kB
--- maxvsize        910784.000 kB
--- avgvsize        690409.655 kB
-
-Running test src/khash/run-khash (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.130 (= 0.120 + 0.010)
-[benchmark] rss diff: 364.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/khash/run-khash -i -2
-
--- totalmem      16237192.000 kB
--- available     13499620.000 kB
--- free           8821084.000 kB
-
--- retval                   0
--- real                 1.557 sec
--- user                 1.350 sec
--- sys                  0.140 sec
--- maxrss          249240.000 kB
--- avgrss          114534.577 kB
--- maxvsize        287660.000 kB
--- avgvsize        147565.423 kB
-
-Running test src/libevent/run-le (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 1.390 (= 1.190 + 0.200)
-[benchmark] rss diff: 352.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/libevent/run-le -i -2
-
--- totalmem      16237192.000 kB
--- available     13499336.000 kB
--- free           8817992.000 kB
-
--- retval                   0
--- real                 2.345 sec
--- user                 2.020 sec
--- sys                  0.280 sec
--- maxrss          634960.000 kB
--- avgrss          374833.217 kB
--- maxvsize        639936.000 kB
--- avgvsize        409742.904 kB
-
-Running test src/mct/run-mct-closed (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215888.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.240 (= 0.210 + 0.030)
-[benchmark] rss diff: 420.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/mct/run-mct-closed -i -2
-
--- totalmem      16237192.000 kB
--- available     13499300.000 kB
--- free           8818116.000 kB
-
--- retval                   0
--- real                 0.983 sec
--- user                 0.880 sec
--- sys                  0.080 sec
--- maxrss          314548.000 kB
--- avgrss          153905.625 kB
--- maxvsize        326248.000 kB
--- avgvsize        185454.042 kB
-
-Running test src/mct/run-mct-linked (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 1.580 (= 1.510 + 0.070)
-[benchmark] rss diff: 424.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/mct/run-mct-linked -i -2
-
--- totalmem      16237192.000 kB
--- available     13499940.000 kB
--- free           8818628.000 kB
-
--- retval                   0
--- real                 2.322 sec
--- user                 2.180 sec
--- sys                  0.120 sec
--- maxrss          412796.000 kB
--- avgrss          273163.266 kB
--- maxvsize        424552.000 kB
--- avgvsize        294209.799 kB
-
-Running test src/python/run-python (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.540 (= 0.420 + 0.120)
-[benchmark] rss diff: 360.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/python/run-python -i -2
-
--- totalmem      16237192.000 kB
--- available     13499840.000 kB
--- free           8818452.000 kB
-
--- retval                   0
--- real                 1.288 sec
--- user                 1.080 sec
--- sys                  0.190 sec
--- maxrss          608480.000 kB
--- avgrss          256849.953 kB
--- maxvsize        612256.000 kB
--- avgvsize        280508.157 kB
-
-Running test src/rdestl/run-rde (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.660 (= 0.570 + 0.090)
-[benchmark] rss diff: 420.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/rdestl/run-rde -i -2
-
--- totalmem      16237192.000 kB
--- available     13499764.000 kB
--- free           8818336.000 kB
-
--- retval                   0
--- real                 1.389 sec
--- user                 1.220 sec
--- sys                  0.150 sec
--- maxrss          412792.000 kB
--- avgrss          208179.650 kB
--- maxvsize        424552.000 kB
--- avgvsize        236042.949 kB
-
-Running test src/ruby-st/run-ruby-st (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.820 (= 0.760 + 0.060)
-[benchmark] rss diff: 364.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/ruby-st/run-ruby-st -i -2
-
--- totalmem      16237192.000 kB
--- available     13499236.000 kB
--- free           8816704.000 kB
-
--- retval                   0
--- real                 1.654 sec
--- user                 1.460 sec
--- sys                  0.160 sec
--- maxrss          536020.000 kB
--- avgrss          271035.235 kB
--- maxvsize        539736.000 kB
--- avgvsize        287668.815 kB
-
-Running test src/sglib/run-sglib (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 15.110 (= 15.030 + 0.080)
-[benchmark] rss diff: 232.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sglib/run-sglib -i -2
-
--- totalmem      16237192.000 kB
--- available     13497284.000 kB
--- free           8799716.000 kB
-
--- retval                   0
--- real                16.212 sec
--- user                15.940 sec
--- sys                  0.160 sec
--- maxrss          450568.000 kB
--- avgrss          428802.373 kB
--- maxvsize        454104.000 kB
--- avgvsize        434765.990 kB
-
-Running test src/stb/run-stb (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 4999998
-[int data] CPU time: 0.920 (= 0.900 + 0.020)
-[benchmark] rss diff: 360.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/stb/run-stb -i -2
-
--- totalmem      16237192.000 kB
--- available     13496828.000 kB
--- free           8799256.000 kB
-
--- retval                   0
--- real                 1.822 sec
--- user                 1.710 sec
--- sys                  0.090 sec
--- maxrss          313856.000 kB
--- avgrss          189802.800 kB
--- maxvsize        317368.000 kB
--- avgvsize        207275.533 kB
-
-Running test src/st/run-st (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215260.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.540 (= 0.470 + 0.070)
-[benchmark] rss diff: 348.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/st/run-st -i -2
-
--- totalmem      16237192.000 kB
--- available     13504540.000 kB
--- free           8806944.000 kB
-
--- retval                   0
--- real                 1.308 sec
--- user                 1.150 sec
--- sys                  0.140 sec
--- maxrss          457992.000 kB
--- avgrss          222237.085 kB
--- maxvsize        461584.000 kB
--- avgvsize        242149.147 kB
-
-Running test src/sys-apr/run-apr-lib (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215412.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 4.670 (= 4.510 + 0.160)
-[benchmark] rss diff: 316.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-apr/run-apr-lib -i -2
-
--- totalmem      16237192.000 kB
--- available     13492124.000 kB
--- free           8808332.000 kB
-
--- retval                   0
--- real                 5.773 sec
--- user                 5.480 sec
--- sys                  0.240 sec
--- maxrss          543828.000 kB
--- avgrss          381023.853 kB
--- maxvsize        559976.000 kB
--- avgvsize        402226.536 kB
-
-Running test src/sys-boost/run-unordered-map (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.700 (= 0.630 + 0.070)
-[benchmark] rss diff: 428.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-boost/run-unordered-map -i -2
-
--- totalmem      16237192.000 kB
--- available     13494756.000 kB
--- free           8812364.000 kB
-
--- retval                   0
--- real                 1.588 sec
--- user                 1.410 sec
--- sys                  0.160 sec
--- maxrss          421464.000 kB
--- avgrss          223121.436 kB
--- maxvsize        433324.000 kB
--- avgvsize        250763.026 kB
-
-Running test src/sys-gcc-stl/run-map (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 4.370 (= 4.280 + 0.090)
-[benchmark] rss diff: 424.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-gcc-stl/run-map -i -2
-
--- totalmem      16237192.000 kB
--- available     13486448.000 kB
--- free           8811744.000 kB
-
--- retval                   0
--- real                 5.742 sec
--- user                 5.360 sec
--- sys                  0.180 sec
--- maxrss          450324.000 kB
--- avgrss          299444.931 kB
--- maxvsize        462264.000 kB
--- avgvsize        317876.989 kB
-
-Running test src/sys-gcc-stl/run-unordered-map (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.740 (= 0.650 + 0.090)
-[benchmark] rss diff: 436.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-gcc-stl/run-unordered-map -i -2
-
--- totalmem      16237192.000 kB
--- available     13482176.000 kB
--- free           8807324.000 kB
-
--- retval                   0
--- real                 1.739 sec
--- user                 1.540 sec
--- sys                  0.180 sec
--- maxrss          455328.000 kB
--- avgrss          214468.140 kB
--- maxvsize        467176.000 kB
--- avgvsize        244341.535 kB
-
-Running test src/sys-glib/run-glib (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215484.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.370 (= 0.290 + 0.080)
-[benchmark] rss diff: 596.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-glib/run-glib -i -2
-
--- totalmem      16237192.000 kB
--- available     13484832.000 kB
--- free           8809960.000 kB
-
--- retval                   0
--- real                 1.161 sec
--- user                 0.990 sec
--- sys                  0.150 sec
--- maxrss          314200.000 kB
--- avgrss          163803.965 kB
--- maxvsize        377544.000 kB
--- avgvsize        205154.619 kB
-
-Running test src/sys-judy/run-judy (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215292.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.970 (= 0.960 + 0.010)
-[benchmark] rss diff: 404.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-judy/run-judy -i -2
-
--- totalmem      16237192.000 kB
--- available     13454600.000 kB
--- free           8782244.000 kB
-
--- retval                   0
--- real                 2.282 sec
--- user                 2.150 sec
--- sys                  0.100 sec
--- maxrss          257980.000 kB
--- avgrss          173013.600 kB
--- maxvsize        263952.000 kB
--- avgvsize        192480.764 kB
-
-Running test src/sys-LuaHashMap/run-luahashmap (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215380.000 kB
-[int data] # elements: 4999999
-[int data] CPU time: 0.660 (= 0.610 + 0.050)
-[benchmark] rss diff: 468.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-LuaHashMap/run-luahashmap -i -2
-
--- totalmem      16237192.000 kB
--- available     13432344.000 kB
--- free           8753332.000 kB
-
--- retval                   0
--- real                 2.193 sec
--- user                 1.910 sec
--- sys                  0.150 sec
--- maxrss          346864.000 kB
--- avgrss          171462.478 kB
--- maxvsize        357572.000 kB
--- avgvsize        201219.922 kB
-
-Running test src/sys-perl/run-perl (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215612.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 9.220 (= 8.960 + 0.260)
-[benchmark] rss diff: 864.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-perl/run-perl -i -2
-
--- totalmem      16237192.000 kB
--- available     13452156.000 kB
--- free           8784456.000 kB
-
--- retval                   0
--- real                10.030 sec
--- user                 9.640 sec
--- sys                  0.360 sec
--- maxrss         1274728.000 kB
--- avgrss          911684.012 kB
--- maxvsize       1292684.000 kB
--- avgvsize        934051.844 kB
-
-Running test src/sys-python/run-python (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215976.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.740 (= 0.540 + 0.200)
-[benchmark] rss diff: 479960.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-python/run-python -i -2
-
--- totalmem      16237192.000 kB
--- available     13452376.000 kB
--- free           8784704.000 kB
-
--- retval                   0
--- real                 1.491 sec
--- user                 1.180 sec
--- sys                  0.290 sec
--- maxrss          813056.000 kB
--- avgrss          347436.877 kB
--- maxvsize        912816.000 kB
--- avgvsize        418193.260 kB
-
-Running test src/sys-Qt/run-hash (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 217672.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.520 (= 0.470 + 0.050)
-[benchmark] rss diff: 380.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-Qt/run-hash -i -2
-
--- totalmem      16237192.000 kB
--- available     13452516.000 kB
--- free           8784844.000 kB
-
--- retval                   0
--- real                 1.302 sec
--- user                 1.160 sec
--- sys                  0.130 sec
--- maxrss          447172.000 kB
--- avgrss          218725.750 kB
--- maxvsize        514296.000 kB
--- avgvsize        303526.250 kB
-
-Running test src/sys-Qt/run-map (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 217680.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 4.600 (= 4.560 + 0.040)
-[benchmark] rss diff: 364.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-Qt/run-map -i -2
-
--- totalmem      16237192.000 kB
--- available     13452148.000 kB
--- free           8784548.000 kB
-
--- retval                   0
--- real                 5.369 sec
--- user                 5.230 sec
--- sys                  0.120 sec
--- maxrss          452112.000 kB
--- avgrss          323665.775 kB
--- maxvsize        519332.000 kB
--- avgvsize        394776.315 kB
-
-Running test src/sys-sparsehash/run-dense (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.180 (= 0.120 + 0.060)
-[benchmark] rss diff: 428.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-sparsehash/run-dense -i -2
-
--- totalmem      16237192.000 kB
--- available     13452196.000 kB
--- free           8784532.000 kB
-
--- retval                   0
--- real                 0.947 sec
--- user                 0.820 sec
--- sys                  0.120 sec
--- maxrss          412800.000 kB
--- avgrss          152386.839 kB
--- maxvsize        424596.000 kB
--- avgvsize        191066.968 kB
-
-Running test src/sys-sparsehash/run-sparse (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215896.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.740 (= 0.730 + 0.010)
-[benchmark] rss diff: 488.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-sparsehash/run-sparse -i -2
-
--- totalmem      16237192.000 kB
--- available     13452132.000 kB
--- free           8784532.000 kB
-
--- retval                   0
--- real                 1.473 sec
--- user                 1.390 sec
--- sys                  0.070 sec
--- maxrss          259520.000 kB
--- avgrss          178045.490 kB
--- maxvsize        271328.000 kB
--- avgvsize        202875.172 kB
-
-Running test src/sys-tcl/run-tcl (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215628.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 2.360 (= 2.240 + 0.120)
-[benchmark] rss diff: 313144.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-tcl/run-tcl -i -2
-
--- totalmem      16237192.000 kB
--- available     13452384.000 kB
--- free           8784780.000 kB
-
--- retval                   0
--- real                 3.131 sec
--- user                 2.880 sec
--- sys                  0.230 sec
--- maxrss          561408.000 kB
--- avgrss          384991.187 kB
--- maxvsize        577856.000 kB
--- avgvsize        407587.342 kB
-
-Running test src/tommyds/run-dynamic (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 2.270 (= 2.060 + 0.210)
-[benchmark] rss diff: 352.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/tommyds/run-dynamic -i -2
-
--- totalmem      16237192.000 kB
--- available     13452920.000 kB
--- free           8785308.000 kB
-
--- retval                   0
--- real                 3.033 sec
--- user                 2.710 sec
--- sys                  0.300 sec
--- maxrss          919112.000 kB
--- avgrss          603581.760 kB
--- maxvsize        923460.000 kB
--- avgvsize        637212.987 kB
-
-Running test src/tommyds/run-fixed (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215252.000 kB
-[int data] # elements: 4994140
-[int data] CPU time: 0.880 (= 0.730 + 0.150)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/tommyds/run-fixed -i -2
-
--- totalmem      16237192.000 kB
--- available     13451896.000 kB
--- free           8784284.000 kB
-
--- retval                   0
--- real                 1.617 sec
--- user                 1.380 sec
--- sys                  0.220 sec
--- maxrss          788716.000 kB
--- avgrss          421048.325 kB
--- maxvsize        792272.000 kB
--- avgvsize        441598.525 kB
-
-Running test src/tommyds/run-linear (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 4994140
-[int data] CPU time: 2.170 (= 2.030 + 0.140)
-[benchmark] rss diff: 352.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/tommyds/run-linear -i -2
-
--- totalmem      16237192.000 kB
--- available     13452236.000 kB
--- free           8784624.000 kB
-
--- retval                   0
--- real                 2.940 sec
--- user                 2.700 sec
--- sys                  0.230 sec
--- maxrss          801072.000 kB
--- avgrss          566506.849 kB
--- maxvsize        857864.000 kB
--- avgvsize        590132.740 kB
-
-Running test src/ulib/run-ulib-open (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 0.120 (= 0.120 + 0.000)
-[benchmark] rss diff: 364.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/ulib/run-ulib-open -i -2
-
--- totalmem      16237192.000 kB
--- available     13451864.000 kB
--- free           8784252.000 kB
-
--- retval                   0
--- real                 0.866 sec
--- user                 0.780 sec
--- sys                  0.080 sec
--- maxrss          255660.000 kB
--- avgrss          132445.271 kB
--- maxvsize        287656.000 kB
--- avgvsize        161683.859 kB
-
-Running test src/uthash/run-uthash (-i) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[int data] # elements: 5000000
-[int data] CPU time: 2.040 (= 1.850 + 0.190)
-[benchmark] rss diff: 368.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/uthash/run-uthash -i -2
-
--- totalmem      16237192.000 kB
--- available     13451620.000 kB
--- free           8784004.000 kB
-
--- retval                   0
--- real                 2.768 sec
--- user                 2.510 sec
--- sys                  0.240 sec
--- maxrss          703440.000 kB
--- avgrss          498127.664 kB
--- maxvsize        707972.000 kB
--- avgvsize        523214.073 kB
-
-Running test src/amtl/run-amtl (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 2.450 (= 2.270 + 0.180)
-[benchmark] rss diff: 424.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/amtl/run-amtl -s -2
-
--- totalmem      16237192.000 kB
--- available     13452460.000 kB
--- free           8784844.000 kB
-
--- retval                   0
--- real                 3.213 sec
--- user                 2.930 sec
--- sys                  0.260 sec
--- maxrss          707664.000 kB
--- avgrss          401695.197 kB
--- maxvsize        719396.000 kB
--- avgvsize        423914.658 kB
-
-Running test src/apr/run-apr (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215252.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 0.790 (= 0.670 + 0.120)
-[benchmark] rss diff: 364.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/apr/run-apr -s -2
-
--- totalmem      16237192.000 kB
--- available     13452232.000 kB
--- free           8784612.000 kB
-
--- retval                   0
--- real                 1.538 sec
--- user                 1.290 sec
--- sys                  0.230 sec
--- maxrss          511104.000 kB
--- avgrss          272134.781 kB
--- maxvsize        518908.000 kB
--- avgvsize        293504.583 kB
-
-Running test src/c-algoritms/run-c-alg (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 0.810 (= 0.650 + 0.160)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/c-algoritms/run-c-alg -s -2
-
--- totalmem      16237192.000 kB
--- available     13543868.000 kB
--- free           8876248.000 kB
-
--- retval                   0
--- real                 1.603 sec
--- user                 1.360 sec
--- sys                  0.220 sec
--- maxrss          537132.000 kB
--- avgrss          258244.943 kB
--- maxvsize        644968.000 kB
--- avgvsize        303716.994 kB
-
-Running test src/ccan/run-ccan-htable (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 26.990 (= 26.930 + 0.060)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/ccan/run-ccan-htable -s -2
-
--- totalmem      16237192.000 kB
--- available     13613568.000 kB
--- free           8945948.000 kB
-
--- retval                   0
--- real                27.746 sec
--- user                27.570 sec
--- sys                  0.130 sec
--- maxrss          303504.000 kB
--- avgrss          243551.424 kB
--- maxvsize        317340.000 kB
--- avgvsize        251582.098 kB
-
-Running test src/CDS/run-CDS (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 0.780 (= 0.680 + 0.100)
-[benchmark] rss diff: 360.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/CDS/run-CDS -s -2
-
--- totalmem      16237192.000 kB
--- available     13612780.000 kB
--- free           8945160.000 kB
-
--- retval                   0
--- real                 1.512 sec
--- user                 1.320 sec
--- sys                  0.180 sec
--- maxrss          510232.000 kB
--- avgrss          250320.107 kB
--- maxvsize        513844.000 kB
--- avgvsize        268011.758 kB
-
-Running test src/cfu/run-cfu (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 5.670 (= 5.540 + 0.130)
-[benchmark] rss diff: 372.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/cfu/run-cfu -s -2
-
--- totalmem      16237192.000 kB
--- available     13613112.000 kB
--- free           8945484.000 kB
-
--- retval                   0
--- real                 6.431 sec
--- user                 6.210 sec
--- sys                  0.200 sec
--- maxrss          671464.000 kB
--- avgrss          495388.555 kB
--- maxvsize        675104.000 kB
--- avgvsize        506477.953 kB
-
-Running test src/c-hashtable/run-cwc (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215324.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 3.930 (= 3.780 + 0.150)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/c-hashtable/run-cwc -s -2
-
--- totalmem      16237192.000 kB
--- available     13613376.000 kB
--- free           8945744.000 kB
-
--- retval                   0
--- real                 4.698 sec
--- user                 4.460 sec
--- sys                  0.210 sec
--- maxrss          554468.000 kB
--- avgrss          392212.987 kB
--- maxvsize        561188.000 kB
--- avgvsize        410677.820 kB
-
-Running test src/eastl/run-ea (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 2.010 (= 1.870 + 0.140)
-[benchmark] rss diff: 436.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/eastl/run-ea -s -2
-
--- totalmem      16237192.000 kB
--- available     13615112.000 kB
--- free           8947480.000 kB
-
--- retval                   0
--- real                 2.759 sec
--- user                 2.530 sec
--- sys                  0.200 sec
--- maxrss          597660.000 kB
--- avgrss          372898.168 kB
--- maxvsize        609472.000 kB
--- avgvsize        392929.524 kB
-
-Running test src/gcc-libiberty/run-gcc (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 1.320 (= 1.270 + 0.050)
-[benchmark] rss diff: 360.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/gcc-libiberty/run-gcc -s -2
-
--- totalmem      16237192.000 kB
--- available     13615244.000 kB
--- free           8947612.000 kB
-
--- retval                   0
--- real                 2.048 sec
--- user                 1.910 sec
--- sys                  0.120 sec
--- maxrss          313856.000 kB
--- avgrss          210845.545 kB
--- maxvsize        317336.000 kB
--- avgvsize        225292.673 kB
-
-Running test src/generic-c-hashmap/run-gc-hashmap (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 2.960 (= 2.730 + 0.230)
-[benchmark] rss diff: 376.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/generic-c-hashmap/run-gc-hashmap -s -2
-
--- totalmem      16237192.000 kB
--- available     13614768.000 kB
--- free           8947136.000 kB
-
--- retval                   0
--- real                 3.708 sec
--- user                 3.380 sec
--- sys                  0.310 sec
--- maxrss          873132.000 kB
--- avgrss          560888.707 kB
--- maxvsize        876732.000 kB
--- avgvsize        576551.533 kB
-
-Running test src/ghthash/run-ght (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 4.340 (= 4.180 + 0.160)
-[benchmark] rss diff: 368.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/ghthash/run-ght -s -2
-
--- totalmem      16237192.000 kB
--- available     13594612.000 kB
--- free           8922144.000 kB
-
--- retval                   0
--- real                 5.218 sec
--- user                 4.940 sec
--- sys                  0.250 sec
--- maxrss          704352.000 kB
--- avgrss          525982.579 kB
--- maxvsize        707840.000 kB
--- avgvsize        534997.707 kB
-
-Running test src/google-c/run-dense (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 5.810 (= 5.770 + 0.040)
-[benchmark] rss diff: 384.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/google-c/run-dense -s -2
-
--- totalmem      16237192.000 kB
--- available     13588384.000 kB
--- free           8920328.000 kB
-
--- retval                   0
--- real                 7.206 sec
--- user                 6.980 sec
--- sys                  0.170 sec
--- maxrss          365040.000 kB
--- avgrss          252261.846 kB
--- maxvsize        368636.000 kB
--- avgvsize        261733.276 kB
-
-Running test src/google-c/run-sparse (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 5.540 (= 5.480 + 0.060)
-[benchmark] rss diff: 380.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/google-c/run-sparse -s -2
-
--- totalmem      16237192.000 kB
--- available     13601404.000 kB
--- free           8933368.000 kB
-
--- retval                   0
--- real                 6.273 sec
--- user                 6.140 sec
--- sys                  0.110 sec
--- maxrss          365036.000 kB
--- avgrss          268772.941 kB
--- maxvsize        368636.000 kB
--- avgvsize        275867.840 kB
-
-Running test src/hashit/run-chain (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 3.290 (= 3.230 + 0.060)
-[benchmark] rss diff: 360.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/hashit/run-chain -s -2
-
--- totalmem      16237192.000 kB
--- available     13601588.000 kB
--- free           8933552.000 kB
-
--- retval                   0
--- real                 4.102 sec
--- user                 3.940 sec
--- sys                  0.140 sec
--- maxrss          437216.000 kB
--- avgrss          332512.216 kB
--- maxvsize        440768.000 kB
--- avgvsize        342103.029 kB
-
-Running test src/hashit/run-open (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 1.000 (= 0.960 + 0.040)
-[benchmark] rss diff: 232.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/hashit/run-open -s -2
-
--- totalmem      16237192.000 kB
--- available     13602436.000 kB
--- free           8934396.000 kB
-
--- retval                   0
--- real                 1.733 sec
--- user                 1.620 sec
--- sys                  0.090 sec
--- maxrss          346448.000 kB
--- avgrss          248620.327 kB
--- maxvsize        350016.000 kB
--- avgvsize        266247.228 kB
-
-Running test src/hashit/run-overflow (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 1.160 (= 1.060 + 0.100)
-[benchmark] rss diff: 232.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/hashit/run-overflow -s -2
-
--- totalmem      16237192.000 kB
--- available     13601692.000 kB
--- free           8933652.000 kB
-
--- retval                   0
--- real                 1.894 sec
--- user                 1.720 sec
--- sys                  0.160 sec
--- maxrss          440748.000 kB
--- avgrss          298625.532 kB
--- maxvsize        464708.000 kB
--- avgvsize        340005.617 kB
-
-Running test src/hhash/run-hhash (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215252.000 kB
-[benchmark] rss diff: 0.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/hhash/run-hhash -s -2
-
--- totalmem      16237192.000 kB
--- available     13601860.000 kB
--- free           8933820.000 kB
-
--- retval                   0
--- real                 0.744 sec
--- user                 0.620 sec
--- sys                  0.100 sec
--- maxrss          215252.000 kB
--- avgrss          114684.722 kB
--- maxvsize        218932.000 kB
--- avgvsize        145339.111 kB
-
-Running test src/htable/run-htable (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 2.040 (= 1.810 + 0.230)
-[benchmark] rss diff: 372.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/htable/run-htable -s -2
-
--- totalmem      16237192.000 kB
--- available     13596916.000 kB
--- free           8928876.000 kB
-
--- retval                   0
--- real                 2.838 sec
--- user                 2.500 sec
--- sys                  0.320 sec
--- maxrss          907240.000 kB
--- avgrss          514308.384 kB
--- maxvsize        910784.000 kB
--- avgvsize        600962.790 kB
-
-Running test src/khash/run-khash (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 3.560 (= 3.520 + 0.040)
-[benchmark] rss diff: 364.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/khash/run-khash -s -2
-
--- totalmem      16237192.000 kB
--- available     13611336.000 kB
--- free           8943292.000 kB
-
--- retval                   0
--- real                 4.363 sec
--- user                 4.250 sec
--- sys                  0.090 sec
--- maxrss          311120.000 kB
--- avgrss          238206.282 kB
--- maxvsize        320428.000 kB
--- avgvsize        250059.279 kB
-
-Running test src/libevent/run-le (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 0.700 (= 0.530 + 0.170)
-[benchmark] rss diff: 364.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/libevent/run-le -s -2
-
--- totalmem      16237192.000 kB
--- available     13610996.000 kB
--- free           8942960.000 kB
-
--- retval                   0
--- real                 1.431 sec
--- user                 1.190 sec
--- sys                  0.220 sec
--- maxrss          633116.000 kB
--- avgrss          318029.686 kB
--- maxvsize        639936.000 kB
--- avgvsize        351839.400 kB
-
-Running test src/mct/run-mct-closed (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 1.600 (= 1.420 + 0.180)
-[benchmark] rss diff: 436.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/mct/run-mct-closed -s -2
-
--- totalmem      16237192.000 kB
--- available     13611196.000 kB
--- free           8943144.000 kB
-
--- retval                   0
--- real                 2.341 sec
--- user                 2.090 sec
--- sys                  0.230 sec
--- maxrss          707792.000 kB
--- avgrss          350871.207 kB
--- maxvsize        719464.000 kB
--- avgvsize        381337.707 kB
-
-Running test src/mct/run-mct-linked (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 3.430 (= 3.220 + 0.210)
-[benchmark] rss diff: 440.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/mct/run-mct-linked -s -2
-
--- totalmem      16237192.000 kB
--- available     13611732.000 kB
--- free           8943680.000 kB
-
--- retval                   0
--- real                 4.164 sec
--- user                 3.860 sec
--- sys                  0.270 sec
--- maxrss          806036.000 kB
--- avgrss          491701.579 kB
--- maxvsize        817768.000 kB
--- avgvsize        516492.097 kB
-
-Running test src/python/run-python (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215252.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 1.560 (= 1.420 + 0.140)
-[benchmark] rss diff: 368.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/python/run-python -s -2
-
--- totalmem      16237192.000 kB
--- available     13612208.000 kB
--- free           8944156.000 kB
-
--- retval                   0
--- real                 2.332 sec
--- user                 2.100 sec
--- sys                  0.210 sec
--- maxrss          608484.000 kB
--- avgrss          351443.339 kB
--- maxvsize        612256.000 kB
--- avgvsize        365116.122 kB
-
-Running test src/rdestl/run-rde (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 0.620 (= 0.510 + 0.110)
-[benchmark] rss diff: 424.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/rdestl/run-rde -s -2
-
--- totalmem      16237192.000 kB
--- available     13612304.000 kB
--- free           8944252.000 kB
-
--- retval                   0
--- real                 1.328 sec
--- user                 1.170 sec
--- sys                  0.140 sec
--- maxrss          511036.000 kB
--- avgrss          227403.450 kB
--- maxvsize        522856.000 kB
--- avgvsize        258643.206 kB
-
-Running test src/ruby-st/run-ruby-st (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 3.300 (= 3.180 + 0.120)
-[benchmark] rss diff: 364.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/ruby-st/run-ruby-st -s -2
-
--- totalmem      16237192.000 kB
--- available     13612032.000 kB
--- free           8943976.000 kB
-
--- retval                   0
--- real                 4.038 sec
--- user                 3.830 sec
--- sys                  0.180 sec
--- maxrss          536020.000 kB
--- avgrss          340412.808 kB
--- maxvsize        539736.000 kB
--- avgvsize        349363.401 kB
-
-Running test src/sglib/run-sglib (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 4.080 (= 4.030 + 0.050)
-[benchmark] rss diff: 240.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sglib/run-sglib -s -2
-
--- totalmem      16237192.000 kB
--- available     13611972.000 kB
--- free           8943916.000 kB
-
--- retval                   0
--- real                 4.812 sec
--- user                 4.690 sec
--- sys                  0.100 sec
--- maxrss          450572.000 kB
--- avgrss          398494.263 kB
--- maxvsize        454104.000 kB
--- avgvsize        408266.021 kB
-
-Running test src/stb/run-stb (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 3.520 (= 3.400 + 0.120)
-[benchmark] rss diff: 372.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/stb/run-stb -s -2
-
--- totalmem      16237192.000 kB
--- available     13611724.000 kB
--- free           8943668.000 kB
-
--- retval                   0
--- real                 4.239 sec
--- user                 4.030 sec
--- sys                  0.190 sec
--- maxrss          523388.000 kB
--- avgrss          355035.449 kB
--- maxvsize        526988.000 kB
--- avgvsize        363930.651 kB
-
-Running test src/st/run-st (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215260.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 1.980 (= 1.940 + 0.040)
-[benchmark] rss diff: 348.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/st/run-st -s -2
-
--- totalmem      16237192.000 kB
--- available     13611600.000 kB
--- free           8943544.000 kB
-
--- retval                   0
--- real                 2.706 sec
--- user                 2.580 sec
--- sys                  0.110 sec
--- maxrss          457992.000 kB
--- avgrss          299755.507 kB
--- maxvsize        461584.000 kB
--- avgvsize        311641.896 kB
-
-Running test src/sys-apr/run-apr-lib (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215412.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 0.610 (= 0.480 + 0.130)
-[benchmark] rss diff: 312.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-apr/run-apr-lib -s -2
-
--- totalmem      16237192.000 kB
--- available     13611584.000 kB
--- free           8943528.000 kB
-
--- retval                   0
--- real                 1.327 sec
--- user                 1.110 sec
--- sys                  0.200 sec
--- maxrss          543828.000 kB
--- avgrss          257819.328 kB
--- maxvsize        559976.000 kB
--- avgvsize        288442.687 kB
-
-Running test src/sys-boost/run-unordered-map (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 3.390 (= 3.260 + 0.130)
-[benchmark] rss diff: 448.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-boost/run-unordered-map -s -2
-
--- totalmem      16237192.000 kB
--- available     13610808.000 kB
--- free           8942492.000 kB
-
--- retval                   0
--- real                 4.139 sec
--- user                 3.900 sec
--- sys                  0.220 sec
--- maxrss          594052.000 kB
--- avgrss          392948.437 kB
--- maxvsize        605880.000 kB
--- avgvsize        410114.680 kB
-
-Running test src/sys-gcc-stl/run-map (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 3.410 (= 3.320 + 0.090)
-[benchmark] rss diff: 440.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-gcc-stl/run-map -s -2
-
--- totalmem      16237192.000 kB
--- available     13611568.000 kB
--- free           8943508.000 kB
-
--- retval                   0
--- real                 4.159 sec
--- user                 3.960 sec
--- sys                  0.180 sec
--- maxrss          606612.000 kB
--- avgrss          377248.271 kB
--- maxvsize        618552.000 kB
--- avgvsize        394815.370 kB
-
-Running test src/sys-gcc-stl/run-unordered-map (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 5.480 (= 5.330 + 0.150)
-[benchmark] rss diff: 440.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-gcc-stl/run-unordered-map -s -2
-
--- totalmem      16237192.000 kB
--- available     13612220.000 kB
--- free           8944164.000 kB
-
--- retval                   0
--- real                 6.238 sec
--- user                 5.990 sec
--- sys                  0.220 sec
--- maxrss          597664.000 kB
--- avgrss          427072.876 kB
--- maxvsize        609468.000 kB
--- avgvsize        442133.597 kB
-
-Running test src/sys-glib/run-glib (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215480.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 2.180 (= 2.100 + 0.080)
-[benchmark] rss diff: 596.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-glib/run-glib -s -2
-
--- totalmem      16237192.000 kB
--- available     13611440.000 kB
--- free           8943384.000 kB
-
--- retval                   0
--- real                 2.906 sec
--- user                 2.770 sec
--- sys                  0.110 sec
--- maxrss          354704.000 kB
--- avgrss          227159.764 kB
--- maxvsize        377544.000 kB
--- avgvsize        250885.750 kB
-
-Running test src/sys-judy/run-judy (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215292.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 1.530 (= 1.490 + 0.040)
-[benchmark] rss diff: 436.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-judy/run-judy -s -2
-
--- totalmem      16237192.000 kB
--- available     13611396.000 kB
--- free           8943340.000 kB
-
--- retval                   0
--- real                 2.250 sec
--- user                 2.110 sec
--- sys                  0.120 sec
--- maxrss          358276.000 kB
--- avgrss          247420.829 kB
--- maxvsize        364236.000 kB
--- avgvsize        261471.892 kB
-
-Running test src/sys-LuaHashMap/run-luahashmap (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215380.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 7.760 (= 7.520 + 0.240)
-[benchmark] rss diff: 468.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-LuaHashMap/run-luahashmap -s -2
-
--- totalmem      16237192.000 kB
--- available     13611476.000 kB
--- free           8943420.000 kB
-
--- retval                   0
--- real                 8.521 sec
--- user                 8.170 sec
--- sys                  0.330 sec
--- maxrss          871060.000 kB
--- avgrss          536318.266 kB
--- maxvsize        881744.000 kB
--- avgvsize        551928.537 kB
-
-Running test src/sys-perl/run-perl (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215612.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 6.730 (= 6.590 + 0.140)
-[benchmark] rss diff: 868.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-perl/run-perl -s -2
-
--- totalmem      16237192.000 kB
--- available     13611856.000 kB
--- free           8943800.000 kB
-
--- retval                   0
--- real                 7.484 sec
--- user                 7.190 sec
--- sys                  0.270 sec
--- maxrss          818260.000 kB
--- avgrss          580013.723 kB
--- maxvsize        836380.000 kB
--- avgvsize        601142.926 kB
-
-Running test src/sys-python/run-python (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215976.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 1.830 (= 1.500 + 0.330)
-[benchmark] rss diff: 638724.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-python/run-python -s -2
-
--- totalmem      16237192.000 kB
--- available     13611244.000 kB
--- free           8943180.000 kB
-
--- retval                   0
--- real                 2.585 sec
--- user                 2.120 sec
--- sys                  0.440 sec
--- maxrss         1051196.000 kB
--- avgrss          543520.281 kB
--- maxvsize       1071824.000 kB
--- avgvsize        577570.844 kB
-
-Running test src/sys-Qt/run-hash (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 217672.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 0.970 (= 0.880 + 0.090)
-[benchmark] rss diff: 380.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-Qt/run-hash -s -2
-
--- totalmem      16237192.000 kB
--- available     13610996.000 kB
--- free           8942932.000 kB
-
--- retval                   0
--- real                 1.713 sec
--- user                 1.520 sec
--- sys                  0.170 sec
--- maxrss          517820.000 kB
--- avgrss          287268.619 kB
--- maxvsize        584864.000 kB
--- avgvsize        367380.500 kB
-
-Running test src/sys-Qt/run-map (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 217676.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 3.970 (= 3.910 + 0.060)
-[benchmark] rss diff: 384.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-Qt/run-map -s -2
-
--- totalmem      16237192.000 kB
--- available     13611740.000 kB
--- free           8943676.000 kB
-
--- retval                   0
--- real                 4.717 sec
--- user                 4.550 sec
--- sys                  0.150 sec
--- maxrss          608396.000 kB
--- avgrss          385021.109 kB
--- maxvsize        675488.000 kB
--- avgvsize        456983.872 kB
-
-Running test src/sys-sparsehash/run-dense (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215892.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 2.170 (= 1.810 + 0.360)
-[benchmark] rss diff: 460.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-sparsehash/run-dense -s -2
-
--- totalmem      16237192.000 kB
--- available     13611120.000 kB
--- free           8943056.000 kB
-
--- retval                   0
--- real                 2.900 sec
--- user                 2.490 sec
--- sys                  0.390 sec
--- maxrss         1199280.000 kB
--- avgrss          506861.310 kB
--- maxvsize       1211028.000 kB
--- avgvsize        559178.411 kB
-
-Running test src/sys-sparsehash/run-sparse (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215896.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 7.100 (= 7.040 + 0.060)
-[benchmark] rss diff: 464.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-sparsehash/run-sparse -s -2
-
--- totalmem      16237192.000 kB
--- available     13613104.000 kB
--- free           8945040.000 kB
-
--- retval                   0
--- real                 7.829 sec
--- user                 7.670 sec
--- sys                  0.140 sec
--- maxrss          423320.000 kB
--- avgrss          303291.933 kB
--- maxvsize        435044.000 kB
--- avgvsize        317487.656 kB
-
-Running test src/sys-tcl/run-tcl (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215628.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 0.910 (= 0.840 + 0.070)
-[benchmark] rss diff: 313148.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/sys-tcl/run-tcl -s -2
-
--- totalmem      16237192.000 kB
--- available     13613104.000 kB
--- free           8945040.000 kB
-
--- retval                   0
--- real                 1.662 sec
--- user                 1.480 sec
--- sys                  0.160 sec
--- maxrss          561416.000 kB
--- avgrss          293178.707 kB
--- maxvsize        577856.000 kB
--- avgvsize        321028.561 kB
-
-Running test src/tommyds/run-dynamic (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 4994166
-[str data] CPU time: 2.830 (= 2.590 + 0.240)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/tommyds/run-dynamic -s -2
-
--- totalmem      16237192.000 kB
--- available     13613588.000 kB
--- free           8945520.000 kB
-
--- retval                   0
--- real                 3.591 sec
--- user                 3.220 sec
--- sys                  0.350 sec
--- maxrss         1075100.000 kB
--- avgrss          725407.438 kB
--- maxvsize       1079708.000 kB
--- avgvsize        756770.472 kB
-
-Running test src/tommyds/run-fixed (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 4994166
-[str data] CPU time: 1.530 (= 1.360 + 0.170)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/tommyds/run-fixed -s -2
-
--- totalmem      16237192.000 kB
--- available     13613340.000 kB
--- free           8945272.000 kB
-
--- retval                   0
--- real                 2.292 sec
--- user                 2.000 sec
--- sys                  0.270 sec
--- maxrss          944988.000 kB
--- avgrss          581589.991 kB
--- maxvsize        948560.000 kB
--- avgvsize        601848.511 kB
-
-Running test src/tommyds/run-linear (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 4994166
-[str data] CPU time: 2.350 (= 2.160 + 0.190)
-[benchmark] rss diff: 356.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/tommyds/run-linear -s -2
-
--- totalmem      16237192.000 kB
--- available     13612560.000 kB
--- free           8944492.000 kB
-
--- retval                   0
--- real                 3.137 sec
--- user                 2.820 sec
--- sys                  0.290 sec
--- maxrss          957096.000 kB
--- avgrss          662080.913 kB
--- maxvsize       1014144.000 kB
--- avgvsize        687207.254 kB
-
-Running test src/ulib/run-ulib-open (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 1.050 (= 1.020 + 0.030)
-[benchmark] rss diff: 368.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/ulib/run-ulib-open -s -2
-
--- totalmem      16237192.000 kB
--- available     13612468.000 kB
--- free           8944400.000 kB
-
--- retval                   0
--- real                 1.786 sec
--- user                 1.680 sec
--- sys                  0.090 sec
--- maxrss          316700.000 kB
--- avgrss          211373.386 kB
--- maxvsize        320424.000 kB
--- avgvsize        228544.523 kB
-
-Running test src/uthash/run-uthash (-s) (-2). Please wait ...
-[benchmark] generating data... [linear] done!
-[benchmark] initial rss: 215256.000 kB
-[str data] # elements: 5000000
-[str data] CPU time: 2.830 (= 2.660 + 0.170)
-[benchmark] rss diff: 376.000 kB
-[benchmark] finished!
--- CMD: src/run-it/run-it src/uthash/run-uthash -s -2
-
--- totalmem      16237192.000 kB
--- available     13612624.000 kB
--- free           8944556.000 kB
-
--- retval                   0
--- real                 3.565 sec
--- user                 3.290 sec
--- sys                  0.250 sec
--- maxrss          704104.000 kB
--- avgrss          526844.316 kB
--- maxvsize        707972.000 kB
--- avgvsize        549927.130 kB
+-- maxrss          617364.000 kB
+-- avgrss          447295.416 kB
+-- maxvsize        621940.000 kB
+-- avgvsize        470136.794 kB
 
