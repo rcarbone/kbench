@@ -9,12 +9,12 @@ extern "C" {
   void udb_init_data (unsigned n);
   void grow_init_data (unsigned n);
 
-  int udb_benchmark (int argc, char * argv [],
-		     unsigned (* udb_int) (unsigned, unsigned *),
-		     unsigned (* udb_str) (unsigned, char **),
-		     unsigned (* grow_int) (unsigned, unsigned *),
-		     unsigned (* grow_str) (unsigned, char **)
-		     );
+  unsigned udb_benchmark (int argc, char * argv [],
+			  unsigned (* udb_int) (unsigned, unsigned *),
+			  unsigned (* udb_str) (unsigned, char **),
+			  unsigned (* grow_int) (unsigned, unsigned *),
+			  unsigned (* grow_str) (unsigned, char **)
+			  );
 
 #ifdef __cplusplus
 }

@@ -24,6 +24,7 @@ SUBDIRS += mct
 SUBDIRS += python
 SUBDIRS += rdestl
 SUBDIRS += redis
+SUBDIRS += rigtorp-hashmap
 SUBDIRS += ruby-st
 SUBDIRS += st
 SUBDIRS += stb

@@ -1,0 +1,26 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Aug 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         apr
+Module       hashtable
+Author       Apache Software Foundation (ASF)
+Description  Apache Portable Runtime Library
+Download     http://apache.org
+Date         2011, 2016
+Language     C
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were locally copied from latest version available at:
+   http://apache.panu.it/apr/apr-1.5.2.tar.gz
+
+  - apr_hash.h
+  - apr_hash.c
+
+Both have been subject to modifications in order to compile the files as a standalone module.
+
+Moreover I fixed 2 memory leaks:
+ ! defined function apr_hash_done() to free ht->array and ht pointer itself
+ ! in apr_hash_set() the entry just deleted pointed to by the variable 'old' was not freed

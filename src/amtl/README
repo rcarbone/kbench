@@ -26,4 +26,5 @@ The following sources files were locally copied from latest git version:
   - amtl/am-raii.h
   - amtl/am-string.h
   - amtl/am-type-traits.h
+  - amtl/am-uniqueptr.h
   - amtl/am-utility.h

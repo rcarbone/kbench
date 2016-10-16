@@ -1,0 +1,55 @@
+Rocco Carbone (rocco@tecsiel.it)
+Pisa, Sep 2016
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Name         eastl
+Module       hashmap
+Author       Electronic Arts Inc.
+Description  Electronic Arts Standard Template Library
+Download     https://github.com/electronicarts/EASTL
+Date         2006, 2016
+Language     C++
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+
+The following sources files were locally copied from latest git version:
+  - hashtable.cpp
+
+  - EASTL/algorithm.h
+  - EASTL/allocator.h
+  - EASTL/functional.h
+  - EASTL/hash_map.h
+  - EASTL/initializer_list.h
+  - EASTL/iterator.h
+  - EASTL/numeric_limits.h
+  - EASTL/random.h
+  - EASTL/type_traits.h
+  - EASTL/utility.h
+
+  - EASTL/EABase/eabase.h
+  - EASTL/EABase/eabase.heahave.h
+  - EASTL/EABase/eabase.hnullptr.h
+  - EASTL/EABase/eabase.hversion.h
+
+  - EASTL/EABase/config/compiler.h
+  - EASTL/EABase/config/compilertraits.h
+  - EASTL/EABase/config/platform.h
+
+  - EASTL/internal/locator_traits_fwd_decls.h
+  - EASTL/internal/config.h
+  - EASTL/internal/copy_help.h
+  - EASTL/internal/fill_help.h
+  - EASTL/internal/functional_base.h
+  - EASTL/internal/function.h
+  - EASTL/internal/generic_iterator.h
+  - EASTL/internal/hashtable.h
+  - EASTL/internal/integer_sequence.h
+  - EASTL/internal/mem_fn.h
+  - EASTL/internal/move_help.h
+  - EASTL/internal/tuple_fwd_decls.h
+  - EASTL/internal/type_compound.h
+  - EASTL/internal/type_fundamental.h
+  - EASTL/internal/type_pod.h
+  - EASTL/internal/type_properties.h
+  - EASTL/internal/type_transformations.h

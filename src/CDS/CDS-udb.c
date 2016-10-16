@@ -7,7 +7,7 @@ unsigned udb_int (unsigned n, unsigned * keys)
 
   for (i = 0; i < n; i ++)
     {
-      if (HashMapGet (ht, (void *) (intptr_t) keys [i]))
+      if (HashMapContain (ht, (void *) (intptr_t) keys [i]))
 	HashMapRemove (ht, (void *) (intptr_t) keys [i]);
       else
 	HashMapPut (ht, (void *) (intptr_t) keys [i], (void *) (intptr_t) keys [i]);
@@ -33,7 +33,7 @@ unsigned udb_str (unsigned n, char ** keys)
 
   for (i = 0; i < n; i ++)
     {
-      if (HashMapGet (ht, keys [i]))
+      if (HashMapContain (ht, keys [i]))
 	HashMapRemove (ht, keys [i]);
       else
 	HashMapPut (ht, keys [i], & i);
