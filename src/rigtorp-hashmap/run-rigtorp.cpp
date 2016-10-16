@@ -12,27 +12,13 @@ using namespace rigtorp;
 
 struct hasher
 {
-#if defined(ROCCO)
-  inline rde::hash_value_t operator () (const char * s) const
-  {
-    rde::hash_value_t hash (0);
-    char c;
-    while ((c = * s ++) != 0)
-      hash = (hash << 5) + hash + c;
-    return hash;
-  }
-#else
   unsigned operator () (char * key) { return python_hash (key); }
-#endif /* ROCCO */
 };
 
 
 struct equaler
 {
-  inline bool operator () (char * s1, char * s2)
-  {
-    return ! strcmp (s1, s2);
-  }
+  inline bool operator () (char * s1, char * s2) { return ! strcmp (s1, s2); }
 };
 
 

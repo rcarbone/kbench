@@ -21,6 +21,7 @@ SUBDIRS += libevent
 SUBDIRS += ltable
 SUBDIRS += lua-table
 SUBDIRS += mct
+SUBDIRS += oddou-hashmap
 SUBDIRS += python
 SUBDIRS += rdestl
 SUBDIRS += redis

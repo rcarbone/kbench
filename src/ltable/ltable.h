@@ -3,7 +3,7 @@
 
 #include <stdbool.h>
 
-#define LTABLE_SEED
+#define LTABLE_SEED        11
 
 #define LTABLE_KEYNUM      1
 #define LTABLE_KEYINT      2
