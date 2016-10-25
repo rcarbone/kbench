@@ -1,6 +1,7 @@
 #include <string.h>
 
 #include "benchmark.h"
+#include "rhash.h"
 
 /* The implementation */
 #include "tommyhashlin.h"
@@ -34,7 +35,7 @@ static int cmp_int (const void * key, const void * obj)
 /* The callback comparison function to look up for matching keys */
 static int cmp_str (const void * key, const void * obj)
 {
-  return ! strcmp (key, ((obj_t *) obj) -> skey);
+  return strcmp (((obj_t *) key) -> skey, ((obj_t *) obj) -> skey);
 }
 
 /* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
