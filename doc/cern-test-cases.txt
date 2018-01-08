@@ -1,0 +1,12 @@
+Author: Tobias Kappe' (tobias.kappe@cern.c)
+
+Test cases described in:
+========================
+https://gitlab.cern.ch/dss/map-benchmarks
+
+SET            - Adds a random key/value-pair to the hashtable. Note that the key may already exist in the hashtable
+GET            - Retrieves a random value from the hashtable, using a (randomly selected) key that is already in the hashtable
+GET_RANDOM     - Retrieves a randomly generated key from the hashtable. Chances are this key does not exist
+DELETE         - Like get, but delete the key
+DELETE_RANDOM  - Like get-random, but delete the key
+ITERATE        - Iterates over all entries in the hashtable (in arbitrary order)

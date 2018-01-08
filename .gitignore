@@ -1,0 +1,19 @@
+# Executables
+run-*
+
+# Automatically generated C sources
+
+# Libraries
+*.a
+
+# Shared objects
+*.so
+
+# Object files
+*.o
+
+# Dependency files
+*.M
+
+# Backup files
+*~

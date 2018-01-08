@@ -9,3 +9,5 @@
  Andrea Mazzoleni             2013  http://www.tommyds.it/doc/benchmark
  Fredrik Widlund (lonewolfer) 2014  http://lonewolfer.wordpress.com/2014/03/13/benchmarking-hash-table-implementations-in-different-languages
  Fredrik Widlund (lonewolfer) 2015  http://lonewolfer.wordpress.com/2015/02/07/benchmarking-string-hash-tables
+
+ Tessil                       2016  http://tessil.github.io/2016/08/29/benchmark-hopscotch-map.html

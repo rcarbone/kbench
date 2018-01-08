@@ -44,7 +44,7 @@
 #include <ctype.h>
 
 #include "dict.h"
-#include "zmalloc.h"
+#include "zmalloc.c"
 
 #if defined(ROCCO_WAS_HERE)
 #ifndef DICT_BENCHMARK_MAIN

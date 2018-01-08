@@ -1,9 +1,7 @@
 # The name of the games
 C++MAINSRCS  = run-rigtorp.cpp
 
-# C++FLAGS     = -std=c++11
-C++FLAGS    += -Wno-sign-compare
-C++FLAGS    += -Wno-unused-value
+C++FLAGS     = -Wno-sign-compare
 SYSLIBS     += -lstdc++
 
 include ../../etc/Make.rules
